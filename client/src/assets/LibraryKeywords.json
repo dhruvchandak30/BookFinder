@@ -1,0 +1,4887 @@
+[
+ {
+  "Id": 1,
+  "Address": "Row 1 Side A",
+  "Shelf": 1,
+  "Class": "001.424 - 003",
+  "Keyword": "Research methodology"
+ },
+ {
+  "Id": 2,
+  "Address": "Row 1 Side A",
+  "Shelf": 1,
+  "Class": "001.424 - 003",
+  "Keyword": "Error control coding"
+ },
+ {
+  "Id": 3,
+  "Address": "Row 1 Side A",
+  "Shelf": 2,
+  "Class": "003 - 003.5",
+  "Keyword": "Systems"
+ },
+ {
+  "Id": 4,
+  "Address": "Row 1 Side A",
+  "Shelf": 2,
+  "Class": "003 - 003.5",
+  "Keyword": "Operation research "
+ },
+ {
+  "Id": 5,
+  "Address": "Row 1 Side A",
+  "Shelf": 2,
+  "Class": "003 - 003.5",
+  "Keyword": "System simulation"
+ },
+ {
+  "Id": 6,
+  "Address": "Row 1 Side A",
+  "Shelf": 3,
+  "Class": "003.54- 003.857",
+  "Keyword": "Information theory"
+ },
+ {
+  "Id": 7,
+  "Address": "Row 1 Side A",
+  "Shelf": 3,
+  "Class": "003.54- 003.857",
+  "Keyword": "Coding theory"
+ },
+ {
+  "Id": 8,
+  "Address": "Row 1 Side A",
+  "Shelf": 3,
+  "Class": "003.54- 003.857",
+  "Keyword": "Cryptography"
+ },
+ {
+  "Id": 9,
+  "Address": "Row 1 Side A",
+  "Shelf": 3,
+  "Class": "003.54- 003.857",
+  "Keyword": "Nonlinear dynamics and chaos"
+ },
+ {
+  "Id": 10,
+  "Address": "Row 1 Side A",
+  "Shelf": 4,
+  "Class": "003.857 -004",
+  "Keyword": "Computer science"
+ },
+ {
+  "Id": 11,
+  "Address": "Row 1 Side A",
+  "Shelf": 4,
+  "Class": "003.857 -004",
+  "Keyword": "Digital system"
+ },
+ {
+  "Id": 12,
+  "Address": "Row 1 Side A",
+  "Shelf": 5,
+  "Class": "004 - 004",
+  "Keyword": "Information technology "
+ },
+ {
+  "Id": 13,
+  "Address": "Row 1 Side A",
+  "Shelf": 5,
+  "Class": "004 - 004",
+  "Keyword": "Computer science"
+ },
+ {
+  "Id": 14,
+  "Address": "Row 1 Side A",
+  "Shelf": 5,
+  "Class": "004 - 004",
+  "Keyword": "Ubiquitous computing"
+ },
+ {
+  "Id": 15,
+  "Address": "Row 1 Side A",
+  "Shelf": 6,
+  "Class": "004 - 004.0922",
+  "Keyword": "Computers as components "
+ },
+ {
+  "Id": 16,
+  "Address": "Row 1 Side A",
+  "Shelf": 6,
+  "Class": "004 - 004.0922",
+  "Keyword": "Automata theory"
+ },
+ {
+  "Id": 17,
+  "Address": "Row 1 Side A",
+  "Shelf": 7,
+  "Class": "004.1 - 004.165",
+  "Keyword": "Microprocessors "
+ },
+ {
+  "Id": 18,
+  "Address": "Row 1 Side A",
+  "Shelf": 7,
+  "Class": "004.1 - 004.165",
+  "Keyword": "Quantum computing"
+ },
+ {
+  "Id": 19,
+  "Address": "Row 1 Side A",
+  "Shelf": 7,
+  "Class": "004.1 - 004.165",
+  "Keyword": "Microcomputers"
+ },
+ {
+  "Id": 20,
+  "Address": "Row 1 Side A",
+  "Shelf": 7,
+  "Class": "004.1 - 004.165",
+  "Keyword": "Computer system design"
+ },
+ {
+  "Id": 21,
+  "Address": "Row 1 Side B",
+  "Shelf": 8,
+  "Class": "004.2 - 004.22",
+  "Keyword": "Computer organization"
+ },
+ {
+  "Id": 22,
+  "Address": "Row 1 Side B",
+  "Shelf": 8,
+  "Class": "004.2 - 004.22",
+  "Keyword": "Embedded systems"
+ },
+ {
+  "Id": 23,
+  "Address": "Row 1 Side B",
+  "Shelf": 9,
+  "Class": "004.22",
+  "Keyword": "Computer architecture"
+ },
+ {
+  "Id": 24,
+  "Address": "Row 1 Side B",
+  "Shelf": 9,
+  "Class": "004.22",
+  "Keyword": "Embedded systems"
+ },
+ {
+  "Id": 25,
+  "Address": "Row 1 Side B",
+  "Shelf": 10,
+  "Class": "004.22",
+  "Keyword": "Computer organization"
+ },
+ {
+  "Id": 26,
+  "Address": "Row 1 Side B",
+  "Shelf": 10,
+  "Class": "004.22",
+  "Keyword": "Computer architecture"
+ },
+ {
+  "Id": 27,
+  "Address": "Row 1 Side B",
+  "Shelf": 11,
+  "Class": "004.22 - 004.256",
+  "Keyword": "Computer organization"
+ },
+ {
+  "Id": 28,
+  "Address": "Row 1 Side B",
+  "Shelf": 11,
+  "Class": "004.22 - 004.256",
+  "Keyword": "Digital logic"
+ },
+ {
+  "Id": 29,
+  "Address": "Row 1 Side B",
+  "Shelf": 12,
+  "Class": "004.256- 004.33",
+  "Keyword": "Real time systems "
+ },
+ {
+  "Id": 30,
+  "Address": "Row 1 Side B",
+  "Shelf": 12,
+  "Class": "004.256- 004.33",
+  "Keyword": "Microprocessors"
+ },
+ {
+  "Id": 31,
+  "Address": "Row 1 Side B",
+  "Shelf": 13,
+  "Class": "004.33 - 004.35",
+  "Keyword": "Computer architecture "
+ },
+ {
+  "Id": 32,
+  "Address": "Row 1 Side B",
+  "Shelf": 13,
+  "Class": "004.33 - 004.35",
+  "Keyword": "Real time systems "
+ },
+ {
+  "Id": 33,
+  "Address": "Row 1 Side B",
+  "Shelf": 13,
+  "Class": "004.33 - 004.35",
+  "Keyword": "Parallel computer architecture "
+ },
+ {
+  "Id": 34,
+  "Address": "Row 1 Side B",
+  "Shelf": 14,
+  "Class": "004.35 - 004.36",
+  "Keyword": "Parallel computing "
+ },
+ {
+  "Id": 35,
+  "Address": "Row 1 Side B",
+  "Shelf": 14,
+  "Class": "004.35 - 004.36",
+  "Keyword": "Cloud computing"
+ },
+ {
+  "Id": 36,
+  "Address": "Row 1 Side B",
+  "Shelf": 14,
+  "Class": "004.35 - 004.36",
+  "Keyword": "Internet of things (IOTs)"
+ },
+ {
+  "Id": 37,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 15,
+  "Class": "004.36",
+  "Keyword": "Distributed systems "
+ },
+ {
+  "Id": 38,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 15,
+  "Class": "004.36",
+  "Keyword": "Computer networks "
+ },
+ {
+  "Id": 39,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 15,
+  "Class": "004.36",
+  "Keyword": "Data communication"
+ },
+ {
+  "Id": 40,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 16,
+  "Class": "004.6",
+  "Keyword": "Data communications and networking"
+ },
+ {
+  "Id": 41,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 16,
+  "Class": "004.6",
+  "Keyword": "Computer networks"
+ },
+ {
+  "Id": 42,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 17,
+  "Class": "004.6",
+  "Keyword": "Data communications"
+ },
+ {
+  "Id": 43,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 17,
+  "Class": "004.6",
+  "Keyword": "Computer networks"
+ },
+ {
+  "Id": 44,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 17,
+  "Class": "004.6",
+  "Keyword": "Computer networking"
+ },
+ {
+  "Id": 45,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 18,
+  "Class": "004.6",
+  "Keyword": "Computer networks"
+ },
+ {
+  "Id": 46,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 19,
+  "Class": "004.6 - 004.62",
+  "Keyword": "Data communications and computer networks "
+ },
+ {
+  "Id": 47,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 19,
+  "Class": "004.6 - 004.62",
+  "Keyword": "Microprocessors and microcontrollers"
+ },
+ {
+  "Id": 48,
+  "Address": "Wooden Row 1-C",
+  "Shelf": 20,
+  "Class": "004.62",
+  "Keyword": "Networking with TCP\/IP"
+ },
+ {
+  "Id": 49,
+  "Address": "Row 2 Side A",
+  "Shelf": 21,
+  "Class": "004.62 –004.65",
+  "Keyword": "TCP\/IP Protocol "
+ },
+ {
+  "Id": 50,
+  "Address": "Row 2 Side A",
+  "Shelf": 21,
+  "Class": "004.62 –004.65",
+  "Keyword": "Communication and computer networks"
+ },
+ {
+  "Id": 51,
+  "Address": "Row 2 Side A",
+  "Shelf": 22,
+  "Class": "004.654-005.1",
+  "Keyword": "Internet of things "
+ },
+ {
+  "Id": 52,
+  "Address": "Row 2 Side A",
+  "Shelf": 22,
+  "Class": "004.654-005.1",
+  "Keyword": "Internet protocol"
+ },
+ {
+  "Id": 53,
+  "Address": "Row 2 Side A",
+  "Shelf": 22,
+  "Class": "004.654-005.1",
+  "Keyword": "Cloud computing"
+ },
+ {
+  "Id": 54,
+  "Address": "Row 2 Side A",
+  "Shelf": 23,
+  "Class": "005.1",
+  "Keyword": "Software engineering"
+ },
+ {
+  "Id": 55,
+  "Address": "Row 2 Side A",
+  "Shelf": 23,
+  "Class": "005.1",
+  "Keyword": "Introduction to algorithms "
+ },
+ {
+  "Id": 56,
+  "Address": "Row 2 Side A",
+  "Shelf": 23,
+  "Class": "005.1",
+  "Keyword": "Software design"
+ },
+ {
+  "Id": 57,
+  "Address": "Row 2 Side A",
+  "Shelf": 24,
+  "Class": "005.1",
+  "Keyword": "Programming language "
+ },
+ {
+  "Id": 58,
+  "Address": "Row 2 Side A",
+  "Shelf": 24,
+  "Class": "005.1",
+  "Keyword": "Software engineering "
+ },
+ {
+  "Id": 59,
+  "Address": "Row 2 Side A",
+  "Shelf": 24,
+  "Class": "005.1",
+  "Keyword": "Computer programming"
+ },
+ {
+  "Id": 60,
+  "Address": "Row 2 Side A",
+  "Shelf": 25,
+  "Class": "005.1",
+  "Keyword": "Software Engineering "
+ },
+ {
+  "Id": 61,
+  "Address": "Row 2 Side A",
+  "Shelf": 25,
+  "Class": "005.1",
+  "Keyword": "Algorithms in C and C++"
+ },
+ {
+  "Id": 62,
+  "Address": "Row 2 Side A",
+  "Shelf": 26,
+  "Class": "005.1-005.12",
+  "Keyword": "Soft skills "
+ },
+ {
+  "Id": 63,
+  "Address": "Row 2 Side A",
+  "Shelf": 27,
+  "Class": "005.1-005.12",
+  "Keyword": "Object-oriented programming"
+ },
+ {
+  "Id": 64,
+  "Address": "Row 2 Side A",
+  "Shelf": 28,
+  "Class": "005.1-005.12",
+  "Keyword": "Fundamentals of computer algorithms "
+ },
+ {
+  "Id": 65,
+  "Address": "Row 2 Side A",
+  "Shelf": 27,
+  "Class": "005.122 –005.13",
+  "Keyword": "Algorithm design "
+ },
+ {
+  "Id": 66,
+  "Address": "Row 2 Side B",
+  "Shelf": 28,
+  "Class": "005.122 –005.13",
+  "Keyword": "Programming languages"
+ },
+ {
+  "Id": 67,
+  "Address": "Row 2 Side B",
+  "Shelf": 29,
+  "Class": "005.122 –005.13",
+  "Keyword": "Pragmatics: Design and concept"
+ },
+ {
+  "Id": 68,
+  "Address": "Row 2 Side B",
+  "Shelf": 28,
+  "Class": "005.13– 005.133",
+  "Keyword": "Python"
+ },
+ {
+  "Id": 69,
+  "Address": "Row 2 Side B",
+  "Shelf": 29,
+  "Class": "005.13– 005.133",
+  "Keyword": "Learning R "
+ },
+ {
+  "Id": 70,
+  "Address": "Row 2 Side B",
+  "Shelf": 30,
+  "Class": "005.13– 005.133",
+  "Keyword": "C"
+ },
+ {
+  "Id": 71,
+  "Address": "Row 2 Side B",
+  "Shelf": 31,
+  "Class": "005.13– 005.133",
+  "Keyword": "C++"
+ },
+ {
+  "Id": 72,
+  "Address": "Row 2 Side B",
+  "Shelf": 29,
+  "Class": "005.133",
+  "Keyword": "Programming with C and C++ "
+ },
+ {
+  "Id": 73,
+  "Address": "Row 2 Side B",
+  "Shelf": 29,
+  "Class": "005.133",
+  "Keyword": "Patterns in JAVA"
+ },
+ {
+  "Id": 74,
+  "Address": "Row 2 Side B",
+  "Shelf": 29,
+  "Class": "005.133",
+  "Keyword": "Fundamentals of data structures in C"
+ },
+ {
+  "Id": 75,
+  "Address": "Row 2 Side B",
+  "Shelf": 30,
+  "Class": "005.133",
+  "Keyword": "Computer Programming "
+ },
+ {
+  "Id": 76,
+  "Address": "Row 2 Side B",
+  "Shelf": 30,
+  "Class": "005.133",
+  "Keyword": "Let us C"
+ },
+ {
+  "Id": 77,
+  "Address": "Row 2 Side B",
+  "Shelf": 31,
+  "Class": "005.133",
+  "Keyword": "Let us C "
+ },
+ {
+  "Id": 78,
+  "Address": "Row 2 Side B",
+  "Shelf": 31,
+  "Class": "005.133",
+  "Keyword": "C programming language"
+ },
+ {
+  "Id": 79,
+  "Address": "Row 2 Side B",
+  "Shelf": 32,
+  "Class": "005.133",
+  "Keyword": "Ruby Python "
+ },
+ {
+  "Id": 80,
+  "Address": "Row 2 Side B",
+  "Shelf": 32,
+  "Class": "005.133",
+  "Keyword": "C++  "
+ },
+ {
+  "Id": 81,
+  "Address": "Row 2 Side B",
+  "Shelf": 32,
+  "Class": "005.133",
+  "Keyword": "Parallel programming in C "
+ },
+ {
+  "Id": 82,
+  "Address": "Row 2 Side B",
+  "Shelf": 32,
+  "Class": "005.133",
+  "Keyword": " LISP"
+ },
+ {
+  "Id": 83,
+  "Address": "Row 2 Side B",
+  "Shelf": 33,
+  "Class": "005.133-005.14",
+  "Keyword": "Data structures and algorithm analysis in C"
+ },
+ {
+  "Id": 84,
+  "Address": "Row 2 Side B",
+  "Shelf": 34,
+  "Class": "005.133-005.14",
+  "Keyword": "Software testing"
+ },
+ {
+  "Id": 85,
+  "Address": "Row 2 Side B",
+  "Shelf": 34,
+  "Class": "005.14-005.262",
+  "Keyword": "Software testing "
+ },
+ {
+  "Id": 86,
+  "Address": "Row 3 Side A",
+  "Shelf": 35,
+  "Class": "005.14-005.262",
+  "Keyword": "Intel Microprocessors "
+ },
+ {
+  "Id": 87,
+  "Address": "Row 3 Side A",
+  "Shelf": 36,
+  "Class": "005.14-005.262",
+  "Keyword": "Microprocessors "
+ },
+ {
+  "Id": 88,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.14-005.262",
+  "Keyword": "C++"
+ },
+ {
+  "Id": 89,
+  "Address": "Row 3 Side A",
+  "Shelf": 35,
+  "Class": "005.262",
+  "Keyword": "Programming in ANSI C "
+ },
+ {
+  "Id": 90,
+  "Address": "Row 3 Side A",
+  "Shelf": 35,
+  "Class": "005.262",
+  "Keyword": "Programming with JAVA "
+ },
+ {
+  "Id": 91,
+  "Address": "Row 3 Side A",
+  "Shelf": 35,
+  "Class": "005.262",
+  "Keyword": "Programming in C++"
+ },
+ {
+  "Id": 92,
+  "Address": "Row 3 Side A",
+  "Shelf": 36,
+  "Class": "005.262",
+  "Keyword": "Programming with JAVA"
+ },
+ {
+  "Id": 93,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.262",
+  "Keyword": "Programming with JAVA "
+ },
+ {
+  "Id": 94,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.262",
+  "Keyword": "C++ primer"
+ },
+ {
+  "Id": 95,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.262",
+  "Keyword": "Perl "
+ },
+ {
+  "Id": 96,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.262",
+  "Keyword": "Computer programming in FORTRAN "
+ },
+ {
+  "Id": 97,
+  "Address": "Row 3 Side A",
+  "Shelf": 37,
+  "Class": "005.262",
+  "Keyword": "C the complete reference"
+ },
+ {
+  "Id": 98,
+  "Address": "Row 3 Side A",
+  "Shelf": 38,
+  "Class": "005.262 - 005.268",
+  "Keyword": "C# Perl LINUX "
+ },
+ {
+  "Id": 99,
+  "Address": "Row 3 Side A",
+  "Shelf": 39,
+  "Class": "005.262 - 005.268",
+  "Keyword": "C++ programming language"
+ },
+ {
+  "Id": 100,
+  "Address": "Row 3 Side A",
+  "Shelf": 40,
+  "Class": "005.262 - 005.268",
+  "Keyword": "Android "
+ },
+ {
+  "Id": 101,
+  "Address": "Row 3 Side A",
+  "Shelf": 41,
+  "Class": "005.262 - 005.268",
+  "Keyword": "Assembly language"
+ },
+ {
+  "Id": 102,
+  "Address": "Row 3 Side A",
+  "Shelf": 39,
+  "Class": "005.268-005.2752",
+  "Keyword": "Windows to LINUX"
+ },
+ {
+  "Id": 103,
+  "Address": "Row 3 Side A",
+  "Shelf": 40,
+  "Class": "005.268-005.2752",
+  "Keyword": "JAVA programming language"
+ },
+ {
+  "Id": 104,
+  "Address": "Row 3 Side A",
+  "Shelf": 40,
+  "Class": "005.2752",
+  "Keyword": "Corel JAVA 2"
+ },
+ {
+  "Id": 105,
+  "Address": "Row 3 Side A",
+  "Shelf": 40,
+  "Class": "005.2752",
+  "Keyword": "JAVA SCJP"
+ },
+ {
+  "Id": 106,
+  "Address": "Row 3 Side A",
+  "Shelf": 41,
+  "Class": "005.2752",
+  "Keyword": "JAVA the complete reference"
+ },
+ {
+  "Id": 107,
+  "Address": "Row 3 Side B",
+  "Shelf": 42,
+  "Class": "005.2752",
+  "Keyword": "Visual basic .NET"
+ },
+ {
+  "Id": 108,
+  "Address": "Row 3 Side B",
+  "Shelf": 42,
+  "Class": "005.2752",
+  "Keyword": "JAVA"
+ },
+ {
+  "Id": 109,
+  "Address": "Row 3 Side B",
+  "Shelf": 43,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "Core JAVA "
+ },
+ {
+  "Id": 110,
+  "Address": "Row 3 Side B",
+  "Shelf": 44,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "PHP, "
+ },
+ {
+  "Id": 111,
+  "Address": "Row 3 Side B",
+  "Shelf": 45,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "MySQL "
+ },
+ {
+  "Id": 112,
+  "Address": "Row 3 Side B",
+  "Shelf": 46,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "Apache "
+ },
+ {
+  "Id": 113,
+  "Address": "Row 3 Side B",
+  "Shelf": 47,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "JAVA, "
+ },
+ {
+  "Id": 114,
+  "Address": "Row 3 Side B",
+  "Shelf": 48,
+  "Class": "005.2762- 005.2768",
+  "Keyword": "Visual basic 6"
+ },
+ {
+  "Id": 115,
+  "Address": "Row 3 Side B",
+  "Shelf": 44,
+  "Class": "005.282",
+  "Keyword": "UNIX operating systems "
+ },
+ {
+  "Id": 116,
+  "Address": "Row 3 Side B",
+  "Shelf": 44,
+  "Class": "005.282",
+  "Keyword": "UNIX Programming"
+ },
+ {
+  "Id": 117,
+  "Address": "Row 3 Side B",
+  "Shelf": 45,
+  "Class": "005.282-005.3762",
+  "Keyword": "UNIX Programming "
+ },
+ {
+  "Id": 118,
+  "Address": "Row 3 Side B",
+  "Shelf": 46,
+  "Class": "005.282-005.3762",
+  "Keyword": "JAVA"
+ },
+ {
+  "Id": 119,
+  "Address": "Row 3 Side B",
+  "Shelf": 46,
+  "Class": "005.3762-005.382",
+  "Keyword": "JAVA "
+ },
+ {
+  "Id": 120,
+  "Address": "Row 3 Side B",
+  "Shelf": 47,
+  "Class": "005.3762-005.382",
+  "Keyword": "UNIX network programming"
+ },
+ {
+  "Id": 121,
+  "Address": "Row 3 Side B",
+  "Shelf": 47,
+  "Class": "005.382",
+  "Keyword": "UNIX network programming"
+ },
+ {
+  "Id": 122,
+  "Address": "Row 3 Side B",
+  "Shelf": 48,
+  "Class": "005.382-005.4228",
+  "Keyword": "UNIX network programming "
+ },
+ {
+  "Id": 123,
+  "Address": "Row 3 Side B",
+  "Shelf": 49,
+  "Class": "005.382-005.4228",
+  "Keyword": "Hadoop"
+ },
+ {
+  "Id": 124,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 49,
+  "Class": "005.42282- 005.43",
+  "Keyword": "Advanced programming in UNIX "
+ },
+ {
+  "Id": 125,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 50,
+  "Class": "005.42282- 005.43",
+  "Keyword": "Operating systems"
+ },
+ {
+  "Id": 126,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 50,
+  "Class": "005.43",
+  "Keyword": "Operating system principle"
+ },
+ {
+  "Id": 127,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 50,
+  "Class": "005.43",
+  "Keyword": " Operating system concept"
+ },
+ {
+  "Id": 128,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 51,
+  "Class": "005.432-005.435",
+  "Keyword": "UNIX\/LINUX "
+ },
+ {
+  "Id": 129,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 51,
+  "Class": "005.432-005.435",
+  "Keyword": "UBUNTU "
+ },
+ {
+  "Id": 130,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 51,
+  "Class": "005.432-005.435",
+  "Keyword": "Fedora "
+ },
+ {
+  "Id": 131,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 51,
+  "Class": "005.432-005.435",
+  "Keyword": "Red Hat"
+ },
+ {
+  "Id": 132,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 52,
+  "Class": "005.437-005.453",
+  "Keyword": "Complier design"
+ },
+ {
+  "Id": 133,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 53,
+  "Class": "005.453",
+  "Keyword": "Complier design"
+ },
+ {
+  "Id": 134,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 54,
+  "Class": "005.453– 005.72",
+  "Keyword": "Error control codes "
+ },
+ {
+  "Id": 135,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 54,
+  "Class": "005.453– 005.72",
+  "Keyword": "Data management "
+ },
+ {
+  "Id": 136,
+  "Address": "Wooden Row 3-C",
+  "Shelf": 54,
+  "Class": "005.453– 005.72",
+  "Keyword": "Big data"
+ },
+ {
+  "Id": 137,
+  "Address": "Row 4 Side A",
+  "Shelf": 55,
+  "Class": "005.72 - 005.73",
+  "Keyword": "Error control codes "
+ },
+ {
+  "Id": 138,
+  "Address": "Row 4 Side A",
+  "Shelf": 55,
+  "Class": "005.72 - 005.73",
+  "Keyword": "Data structure and algorithms"
+ },
+ {
+  "Id": 139,
+  "Address": "Row 4 Side A",
+  "Shelf": 56,
+  "Class": "005.73",
+  "Keyword": "Data structure in C++ "
+ },
+ {
+  "Id": 140,
+  "Address": "Row 4 Side A",
+  "Shelf": 56,
+  "Class": "005.73",
+  "Keyword": "Data structure using C and C++"
+ },
+ {
+  "Id": 141,
+  "Address": "Row 4 Side A",
+  "Shelf": 57,
+  "Class": "005.73",
+  "Keyword": "Data structure using C and C++ J"
+ },
+ {
+  "Id": 142,
+  "Address": "Row 4 Side A",
+  "Shelf": 57,
+  "Class": "005.73",
+  "Keyword": "AVA "
+ },
+ {
+  "Id": 143,
+  "Address": "Row 4 Side A",
+  "Shelf": 57,
+  "Class": "005.73",
+  "Keyword": "Pascal"
+ },
+ {
+  "Id": 144,
+  "Address": "Row 4 Side A",
+  "Shelf": 57,
+  "Class": "005.73",
+  "Keyword": "Data structures"
+ },
+ {
+  "Id": 145,
+  "Address": "Row 4 Side A",
+  "Shelf": 58,
+  "Class": "005.73 - 005.74",
+  "Keyword": "Fundamentals of database systems"
+ },
+ {
+  "Id": 146,
+  "Address": "Row 4 Side A",
+  "Shelf": 58,
+  "Class": "005.73 - 005.74",
+  "Keyword": "Database management systems"
+ },
+ {
+  "Id": 147,
+  "Address": "Row 4 Side A",
+  "Shelf": 59,
+  "Class": "005.74",
+  "Keyword": "Database management systems"
+ },
+ {
+  "Id": 148,
+  "Address": "Row 4 Side A",
+  "Shelf": 59,
+  "Class": "005.74",
+  "Keyword": "Hadoop"
+ },
+ {
+  "Id": 149,
+  "Address": "Row 4 Side A",
+  "Shelf": 59,
+  "Class": "005.74",
+  "Keyword": "Data warehouse"
+ },
+ {
+  "Id": 150,
+  "Address": "Row 4 Side A",
+  "Shelf": 60,
+  "Class": "005.74",
+  "Keyword": "Database management systems"
+ },
+ {
+  "Id": 151,
+  "Address": "Row 4 Side A",
+  "Shelf": 60,
+  "Class": "005.74",
+  "Keyword": "Database system concepts"
+ },
+ {
+  "Id": 152,
+  "Address": "Row 4 Side A",
+  "Shelf": 60,
+  "Class": "005.74",
+  "Keyword": "Data compression"
+ },
+ {
+  "Id": 153,
+  "Address": "Row 4 Side A",
+  "Shelf": 61,
+  "Class": "005.754-005.758",
+  "Keyword": "Hadoop Distributed database systems"
+ },
+ {
+  "Id": 154,
+  "Address": "Row 4 Side A",
+  "Shelf": 61,
+  "Class": "005.754-005.758",
+  "Keyword": "ORACLE"
+ },
+ {
+  "Id": 155,
+  "Address": "Row 4 Side A",
+  "Shelf": 61,
+  "Class": "005.754-005.758",
+  "Keyword": "MySQL"
+ },
+ {
+  "Id": 156,
+  "Address": "Row 4 Side B",
+  "Shelf": 62,
+  "Class": "005.758– 005.8",
+  "Keyword": "ORACLE  "
+ },
+ {
+  "Id": 157,
+  "Address": "Row 4 Side B",
+  "Shelf": 62,
+  "Class": "005.758– 005.8",
+  "Keyword": "Computer security"
+ },
+ {
+  "Id": 158,
+  "Address": "Row 4 Side B",
+  "Shelf": 62,
+  "Class": "005.758– 005.8",
+  "Keyword": "Cyber security"
+ },
+ {
+  "Id": 159,
+  "Address": "Row 4 Side B",
+  "Shelf": 62,
+  "Class": "005.758– 005.8",
+  "Keyword": "Network security"
+ },
+ {
+  "Id": 160,
+  "Address": "Row 4 Side B",
+  "Shelf": 63,
+  "Class": "005.8",
+  "Keyword": "Network security"
+ },
+ {
+  "Id": 161,
+  "Address": "Row 4 Side B",
+  "Shelf": 63,
+  "Class": "005.8",
+  "Keyword": "Firewall "
+ },
+ {
+  "Id": 162,
+  "Address": "Row 4 Side B",
+  "Shelf": 63,
+  "Class": "005.8",
+  "Keyword": "Computer security"
+ },
+ {
+  "Id": 163,
+  "Address": "Row 4 Side B",
+  "Shelf": 64,
+  "Class": "005.8 - 005.86",
+  "Keyword": "Information security"
+ },
+ {
+  "Id": 164,
+  "Address": "Row 4 Side B",
+  "Shelf": 64,
+  "Class": "005.8 - 005.86",
+  "Keyword": "Cryptography and network security "
+ },
+ {
+  "Id": 165,
+  "Address": "Row 4 Side B",
+  "Shelf": 64,
+  "Class": "005.8 - 005.86",
+  "Keyword": "Introduction to Cryptography"
+ },
+ {
+  "Id": 166,
+  "Address": "Row 4 Side B",
+  "Shelf": 65,
+  "Class": "006.22 –006.3",
+  "Keyword": "Artificial intelligence "
+ },
+ {
+  "Id": 167,
+  "Address": "Row 4 Side B",
+  "Shelf": 65,
+  "Class": "006.22 –006.3",
+  "Keyword": "Data mining"
+ },
+ {
+  "Id": 168,
+  "Address": "Row 4 Side B",
+  "Shelf": 66,
+  "Class": "006.3-006.31",
+  "Keyword": "Artificial intelligence"
+ },
+ {
+  "Id": 169,
+  "Address": "Row 4 Side B",
+  "Shelf": 66,
+  "Class": "006.3-006.31",
+  "Keyword": "Machine learning"
+ },
+ {
+  "Id": 170,
+  "Address": "Row 4 Side B",
+  "Shelf": 66,
+  "Class": "006.3-006.31",
+  "Keyword": "Machine learning in python "
+ },
+ {
+  "Id": 171,
+  "Address": "Row 4 Side B",
+  "Shelf": 66,
+  "Class": "006.3-006.31",
+  "Keyword": "Deep learning"
+ },
+ {
+  "Id": 172,
+  "Address": "Row 4 Side B",
+  "Shelf": 67,
+  "Class": "006.31-006.312",
+  "Keyword": "Genetic algorithms"
+ },
+ {
+  "Id": 173,
+  "Address": "Row 4 Side B",
+  "Shelf": 67,
+  "Class": "006.31-006.312",
+  "Keyword": "Data mining"
+ },
+ {
+  "Id": 174,
+  "Address": "Row 4 Side B",
+  "Shelf": 67,
+  "Class": "006.31-006.312",
+  "Keyword": "Big data analytics"
+ },
+ {
+  "Id": 175,
+  "Address": "Row 4 Side B",
+  "Shelf": 68,
+  "Class": "006.312-006.32",
+  "Keyword": "Data mining"
+ },
+ {
+  "Id": 176,
+  "Address": "Row 4 Side B",
+  "Shelf": 68,
+  "Class": "006.312-006.32",
+  "Keyword": "Neural networks"
+ },
+ {
+  "Id": 177,
+  "Address": "Row 5 Side A",
+  "Shelf": 69,
+  "Class": "006.32 - 006.4",
+  "Keyword": "Neural networks"
+ },
+ {
+  "Id": 178,
+  "Address": "Row 5 Side A",
+  "Shelf": 69,
+  "Class": "006.32 - 006.4",
+  "Keyword": "Natural language processing"
+ },
+ {
+  "Id": 179,
+  "Address": "Row 5 Side A",
+  "Shelf": 70,
+  "Class": "006.4 - 006.6",
+  "Keyword": "Computer based imaging systems"
+ },
+ {
+  "Id": 180,
+  "Address": "Row 5 Side A",
+  "Shelf": 70,
+  "Class": "006.4 - 006.6",
+  "Keyword": "Computer graphics"
+ },
+ {
+  "Id": 181,
+  "Address": "Row 5 Side A",
+  "Shelf": 71,
+  "Class": "006.6",
+  "Keyword": "Computer graphics"
+ },
+ {
+  "Id": 182,
+  "Address": "Row 5 Side A",
+  "Shelf": 71,
+  "Class": "006.6",
+  "Keyword": "Multimedia systems"
+ },
+ {
+  "Id": 183,
+  "Address": "Row 5 Side A",
+  "Shelf": 72,
+  "Class": "006.6–006.7",
+  "Keyword": "Computer graphics"
+ },
+ {
+  "Id": 184,
+  "Address": "Row 5 Side A",
+  "Shelf": 72,
+  "Class": "006.6–006.7",
+  "Keyword": "Multimedia"
+ },
+ {
+  "Id": 185,
+  "Address": "Row 5 Side A",
+  "Shelf": 72,
+  "Class": "006.6–006.7",
+  "Keyword": "Web design"
+ },
+ {
+  "Id": 186,
+  "Address": "Row 5 Side A",
+  "Shelf": 73,
+  "Class": "006.7-006.74",
+  "Keyword": "Web design"
+ },
+ {
+  "Id": 187,
+  "Address": "Row 5 Side A",
+  "Shelf": 73,
+  "Class": "006.7-006.74",
+  "Keyword": "Multimedia database system"
+ },
+ {
+  "Id": 188,
+  "Address": "Row 5 Side A",
+  "Shelf": 73,
+  "Class": "006.7-006.74",
+  "Keyword": "HTML5"
+ },
+ {
+  "Id": 189,
+  "Address": "Row 5 Side A",
+  "Shelf": 73,
+  "Class": "006.7-006.74",
+  "Keyword": "XML"
+ },
+ {
+  "Id": 190,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "Web programming"
+ },
+ {
+  "Id": 191,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "PHP5"
+ },
+ {
+  "Id": 192,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "HTML"
+ },
+ {
+  "Id": 193,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "CSS"
+ },
+ {
+  "Id": 194,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "XHTML"
+ },
+ {
+  "Id": 195,
+  "Address": "Row 5 Side A",
+  "Shelf": 74,
+  "Class": "006.76",
+  "Keyword": "Web development"
+ },
+ {
+  "Id": 196,
+  "Address": "Row 5 Side A",
+  "Shelf": 75,
+  "Class": "006.76 –006.857",
+  "Keyword": "PHP 5"
+ },
+ {
+  "Id": 197,
+  "Address": "Row 5 Side A",
+  "Shelf": 75,
+  "Class": "006.76 –006.857",
+  "Keyword": "JSP2.0"
+ },
+ {
+  "Id": 198,
+  "Address": "Row 5 Side A",
+  "Shelf": 75,
+  "Class": "006.76 –006.857",
+  "Keyword": "Cloud computing"
+ },
+ {
+  "Id": 199,
+  "Address": "Row 5 Side B",
+  "Shelf": 76,
+  "Class": "020.0954 -111.85",
+  "Keyword": "Library Science"
+ },
+ {
+  "Id": 200,
+  "Address": "Row 5 Side B",
+  "Shelf": 76,
+  "Class": "020.0954 -111.85",
+  "Keyword": "Information retrieval"
+ },
+ {
+  "Id": 201,
+  "Address": "Row 5 Side B",
+  "Shelf": 77,
+  "Class": "121–150.1",
+  "Keyword": "Introduction to Psychology"
+ },
+ {
+  "Id": 202,
+  "Address": "Row 5 Side B",
+  "Shelf": 78,
+  "Class": "150.195–158",
+  "Keyword": "Mind- Psychology"
+ },
+ {
+  "Id": 203,
+  "Address": "Row 5 Side B",
+  "Shelf": 79,
+  "Class": "158.1– 174",
+  "Keyword": "Psychology - Work"
+ },
+ {
+  "Id": 204,
+  "Address": "Row 5 Side B",
+  "Shelf": 80,
+  "Class": "174–181.499",
+  "Keyword": "Human values"
+ },
+ {
+  "Id": 205,
+  "Address": "Row 5 Side B",
+  "Shelf": 80,
+  "Class": "174–181.499",
+  "Keyword": "Professional ethics"
+ },
+ {
+  "Id": 206,
+  "Address": "Row 5 Side B",
+  "Shelf": 81,
+  "Class": "190 -294.52",
+  "Keyword": "Religious and Religion"
+ },
+ {
+  "Id": 207,
+  "Address": "Row 5 Side B",
+  "Shelf": 82,
+  "Class": "294.39–294.52",
+  "Keyword": "Swami Vivekanand"
+ },
+ {
+  "Id": 208,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 83,
+  "Class": "294.52 - 294.55",
+  "Keyword": "Meditation and spiritual life"
+ },
+ {
+  "Id": 209,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 83,
+  "Class": "294.52 - 294.55",
+  "Keyword": "Swami Vivekananda"
+ },
+ {
+  "Id": 210,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 84,
+  "Class": "294.555-294.563",
+  "Keyword": "Hinduism"
+ },
+ {
+  "Id": 211,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 84,
+  "Class": "294.555-294.563",
+  "Keyword": "Shri Ramakrishna"
+ },
+ {
+  "Id": 212,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 85,
+  "Class": "294.563-294.592",
+  "Keyword": "Srimad Bhagavatam"
+ },
+ {
+  "Id": 213,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 85,
+  "Class": "294.563-294.592",
+  "Keyword": "Hinduism"
+ },
+ {
+  "Id": 214,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 86,
+  "Class": "294.592 –301",
+  "Keyword": "Srimad Bhagavatam"
+ },
+ {
+  "Id": 215,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 86,
+  "Class": "294.592 –301",
+  "Keyword": "Sociology"
+ },
+ {
+  "Id": 216,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 87,
+  "Class": "301- 302.13",
+  "Keyword": "Social psychology"
+ },
+ {
+  "Id": 217,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 88,
+  "Class": "302.2-303.483",
+  "Keyword": "Organization development"
+ },
+ {
+  "Id": 218,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 88,
+  "Class": "302.2-303.483",
+  "Keyword": "Organization"
+ },
+ {
+  "Id": 219,
+  "Address": "Wooden Row 5-C",
+  "Shelf": 88,
+  "Class": "302.2-303.483",
+  "Keyword": "Body language"
+ },
+ {
+  "Id": 220,
+  "Address": "Row 6 Side A",
+  "Shelf": 89,
+  "Class": "303.34 –305.26",
+  "Keyword": "Empowered nation"
+ },
+ {
+  "Id": 221,
+  "Address": "Row 6 Side A",
+  "Shelf": 89,
+  "Class": "303.34 –305.26",
+  "Keyword": "Indian social system"
+ },
+ {
+  "Id": 222,
+  "Address": "Row 6 Side A",
+  "Shelf": 89,
+  "Class": "303.34 –305.26",
+  "Keyword": "Technical communication"
+ },
+ {
+  "Id": 223,
+  "Address": "Row 6 Side A",
+  "Shelf": 89,
+  "Class": "303.34 –305.26",
+  "Keyword": "Environmental issues"
+ },
+ {
+  "Id": 224,
+  "Address": "Row 6 Side A",
+  "Shelf": 90,
+  "Class": "305.3 –307.141",
+  "Keyword": "Empowerment"
+ },
+ {
+  "Id": 225,
+  "Address": "Row 6 Side A",
+  "Shelf": 90,
+  "Class": "305.3 –307.141",
+  "Keyword": "Gender"
+ },
+ {
+  "Id": 226,
+  "Address": "Row 6 Side A",
+  "Shelf": 90,
+  "Class": "305.3 –307.141",
+  "Keyword": "Sociolinguistics"
+ },
+ {
+  "Id": 227,
+  "Address": "Row 6 Side A",
+  "Shelf": 90,
+  "Class": "305.3 –307.141",
+  "Keyword": "Pragmatics"
+ },
+ {
+  "Id": 228,
+  "Address": "Row 6 Side A",
+  "Shelf": 91,
+  "Class": "309.121 –330",
+  "Keyword": "Politics"
+ },
+ {
+  "Id": 229,
+  "Address": "Row 6 Side A",
+  "Shelf": 92,
+  "Class": "330–330.90511",
+  "Keyword": "Economics"
+ },
+ {
+  "Id": 230,
+  "Address": "Row 6 Side A",
+  "Shelf": 92,
+  "Class": "330–330.90511",
+  "Keyword": "Mathematics for economics"
+ },
+ {
+  "Id": 231,
+  "Address": "Row 6 Side A",
+  "Shelf": 92,
+  "Class": "330–330.90511",
+  "Keyword": "Economic psychology"
+ },
+ {
+  "Id": 232,
+  "Address": "Row 6 Side A",
+  "Shelf": 93,
+  "Class": "330.9011-330.954",
+  "Keyword": "Indian economy"
+ },
+ {
+  "Id": 233,
+  "Address": "Row 6 Side A",
+  "Shelf": 94,
+  "Class": "330.95-332.6827",
+  "Keyword": "Financial system"
+ },
+ {
+  "Id": 234,
+  "Address": "Row 6 Side A",
+  "Shelf": 94,
+  "Class": "330.95-332.6827",
+  "Keyword": "Investment"
+ },
+ {
+  "Id": 235,
+  "Address": "Row 6 Side A",
+  "Shelf": 94,
+  "Class": "330.95-332.6827",
+  "Keyword": "Finance"
+ },
+ {
+  "Id": 236,
+  "Address": "Row 6 Side A",
+  "Shelf": 95,
+  "Class": "332.6457- 337",
+  "Keyword": "Environmental studies"
+ },
+ {
+  "Id": 237,
+  "Address": "Row 6 Side A",
+  "Shelf": 95,
+  "Class": "332.6457- 337",
+  "Keyword": "Future energy"
+ },
+ {
+  "Id": 238,
+  "Address": "Row 6 Side A",
+  "Shelf": 95,
+  "Class": "332.6457- 337",
+  "Keyword": "Renewable energy"
+ },
+ {
+  "Id": 239,
+  "Address": "Row 6 Side A",
+  "Shelf": 95,
+  "Class": "332.6457- 337",
+  "Keyword": "Sustainable environment"
+ },
+ {
+  "Id": 240,
+  "Address": "Row 6 Side A",
+  "Shelf": 95,
+  "Class": "332.6457- 337",
+  "Keyword": "Public finance"
+ },
+ {
+  "Id": 241,
+  "Address": "Row 6 Side B",
+  "Shelf": 96,
+  "Class": "337-338.5",
+  "Keyword": "International economics"
+ },
+ {
+  "Id": 242,
+  "Address": "Row 6 Side B",
+  "Shelf": 96,
+  "Class": "337-338.5",
+  "Keyword": "Managerial economics"
+ },
+ {
+  "Id": 243,
+  "Address": "Row 6 Side B",
+  "Shelf": 96,
+  "Class": "337-338.5",
+  "Keyword": "Microeconomics"
+ },
+ {
+  "Id": 244,
+  "Address": "Row 6 Side B",
+  "Shelf": 96,
+  "Class": "337-338.5",
+  "Keyword": "Macroeconomics"
+ },
+ {
+  "Id": 245,
+  "Address": "Row 6 Side B",
+  "Shelf": 97,
+  "Class": "338.5 –338.707",
+  "Keyword": "Microeconomics"
+ },
+ {
+  "Id": 246,
+  "Address": "Row 6 Side B",
+  "Shelf": 97,
+  "Class": "338.5 –338.707",
+  "Keyword": "Managerial "
+ },
+ {
+  "Id": 247,
+  "Address": "Row 6 Side B",
+  "Shelf": 97,
+  "Class": "338.5 –338.707",
+  "Keyword": "economics"
+ },
+ {
+  "Id": 248,
+  "Address": "Row 6 Side B",
+  "Shelf": 98,
+  "Class": "338.7093-338.954",
+  "Keyword": "Development economics"
+ },
+ {
+  "Id": 249,
+  "Address": "Row 6 Side B",
+  "Shelf": 98,
+  "Class": "338.7093-338.954",
+  "Keyword": "Environmental and ecological Economics"
+ },
+ {
+  "Id": 250,
+  "Address": "Row 6 Side B",
+  "Shelf": 99,
+  "Class": "338.954-342.54",
+  "Keyword": "Macroeconomics"
+ },
+ {
+  "Id": 251,
+  "Address": "Row 6 Side B",
+  "Shelf": 99,
+  "Class": "338.954-342.54",
+  "Keyword": "Education"
+ },
+ {
+  "Id": 252,
+  "Address": "Row 6 Side B",
+  "Shelf": 100,
+  "Class": "342.54 –362.196",
+  "Keyword": "Taxes"
+ },
+ {
+  "Id": 253,
+  "Address": "Row 6 Side B",
+  "Shelf": 100,
+  "Class": "342.54 –362.196",
+  "Keyword": "Establishment and administration"
+ },
+ {
+  "Id": 254,
+  "Address": "Row 6 Side B",
+  "Shelf": 100,
+  "Class": "342.54 –362.196",
+  "Keyword": "Public administration"
+ },
+ {
+  "Id": 255,
+  "Address": "Row 6 Side B",
+  "Shelf": 101,
+  "Class": "362.196-371.334",
+  "Keyword": "Environmental science "
+ },
+ {
+  "Id": 256,
+  "Address": "Row 6 Side B",
+  "Shelf": 101,
+  "Class": "362.196-371.334",
+  "Keyword": "Insurance"
+ },
+ {
+  "Id": 257,
+  "Address": "Row 6 Side B",
+  "Shelf": 102,
+  "Class": "372.48-398.27",
+  "Keyword": "Higher education"
+ },
+ {
+  "Id": 258,
+  "Address": "Row 6 Side B",
+  "Shelf": 102,
+  "Class": "372.48-398.27",
+  "Keyword": "Business etiquette "
+ },
+ {
+  "Id": 259,
+  "Address": "Row 7 Side A",
+  "Shelf": 103,
+  "Class": "400-425",
+  "Keyword": "Linguistics"
+ },
+ {
+  "Id": 260,
+  "Address": "Row 7 Side A",
+  "Shelf": 103,
+  "Class": "400-425",
+  "Keyword": "Language"
+ },
+ {
+  "Id": 261,
+  "Address": "Row 7 Side A",
+  "Shelf": 103,
+  "Class": "400-425",
+  "Keyword": "English grammar"
+ },
+ {
+  "Id": 262,
+  "Address": "Row 7 Side A",
+  "Shelf": 104,
+  "Class": "425–428.24",
+  "Keyword": "English vocabulary"
+ },
+ {
+  "Id": 263,
+  "Address": "Row 7 Side A",
+  "Shelf": 104,
+  "Class": "425–428.24",
+  "Keyword": "Practical English usage"
+ },
+ {
+  "Id": 264,
+  "Address": "Row 7 Side A",
+  "Shelf": 104,
+  "Class": "425–428.24",
+  "Keyword": "English grammar"
+ },
+ {
+  "Id": 265,
+  "Address": "Row 7 Side A",
+  "Shelf": 105,
+  "Class": "428.3 –500",
+  "Keyword": "Communication skills"
+ },
+ {
+  "Id": 266,
+  "Address": "Row 7 Side A",
+  "Shelf": 105,
+  "Class": "428.3 –500",
+  "Keyword": "English conversation"
+ },
+ {
+  "Id": 267,
+  "Address": "Row 7 Side A",
+  "Shelf": 105,
+  "Class": "428.3 –500",
+  "Keyword": "English communication"
+ },
+ {
+  "Id": 268,
+  "Address": "Row 7 Side A",
+  "Shelf": 105,
+  "Class": "428.3 –500",
+  "Keyword": "Science"
+ },
+ {
+  "Id": 269,
+  "Address": "Row 7 Side A",
+  "Shelf": 106,
+  "Class": "500 -510",
+  "Keyword": "Science"
+ },
+ {
+  "Id": 270,
+  "Address": "Row 7 Side A",
+  "Shelf": 106,
+  "Class": "500 -510",
+  "Keyword": "Advanced engineering mathematics"
+ },
+ {
+  "Id": 271,
+  "Address": "Row 7 Side A",
+  "Shelf": 107,
+  "Class": "510 –510.02462",
+  "Keyword": "Advanced engineering mathematics"
+ },
+ {
+  "Id": 272,
+  "Address": "Row 7 Side A",
+  "Shelf": 108,
+  "Class": 510.02462,
+  "Keyword": "Advanced mathematics"
+ },
+ {
+  "Id": 273,
+  "Address": "Row 7 Side A",
+  "Shelf": 108,
+  "Class": 510.02462,
+  "Keyword": "Advanced engineering mathematics"
+ },
+ {
+  "Id": 274,
+  "Address": "Row 7 Side A",
+  "Shelf": 109,
+  "Class": 510.02462,
+  "Keyword": "Advanced engineering mathematics"
+ },
+ {
+  "Id": 275,
+  "Address": "Row 7 Side A",
+  "Shelf": 109,
+  "Class": 510.02462,
+  "Keyword": "Engineering mathematics "
+ },
+ {
+  "Id": 276,
+  "Address": "Row 7 Side B",
+  "Shelf": 110,
+  "Class": "510.2462 –510.911",
+  "Keyword": "Engineering mathematics"
+ },
+ {
+  "Id": 277,
+  "Address": "Row 7 Side B",
+  "Shelf": 110,
+  "Class": "510.2462 –510.911",
+  "Keyword": "Mathematics"
+ },
+ {
+  "Id": 278,
+  "Address": "Row 7 Side B",
+  "Shelf": 111,
+  "Class": "510.911 –511.1",
+  "Keyword": "Discrete mathematics"
+ },
+ {
+  "Id": 279,
+  "Address": "Row 7 Side B",
+  "Shelf": 112,
+  "Class": 511.1,
+  "Keyword": "Discrete mathematical structures "
+ },
+ {
+  "Id": 280,
+  "Address": "Row 7 Side B",
+  "Shelf": 112,
+  "Class": 511.1,
+  "Keyword": "Elements of discrete mathematics"
+ },
+ {
+  "Id": 281,
+  "Address": "Row 7 Side B",
+  "Shelf": 113,
+  "Class": 511.1,
+  "Keyword": "Discrete mathematics and its applications"
+ },
+ {
+  "Id": 282,
+  "Address": "Row 7 Side B",
+  "Shelf": 114,
+  "Class": "511.1 -511.3",
+  "Keyword": "Discrete mathematical structures"
+ },
+ {
+  "Id": 283,
+  "Address": "Row 7 Side B",
+  "Shelf": 114,
+  "Class": "511.1 -511.3",
+  "Keyword": "Introduction to logic"
+ },
+ {
+  "Id": 284,
+  "Address": "Row 7 Side B",
+  "Shelf": 115,
+  "Class": "511.3 –511.5",
+  "Keyword": "Fuzzy theory "
+ },
+ {
+  "Id": 285,
+  "Address": "Row 7 Side B",
+  "Shelf": 115,
+  "Class": "511.3 –511.5",
+  "Keyword": "Theory of computation"
+ },
+ {
+  "Id": 286,
+  "Address": "Row 7 Side B",
+  "Shelf": 115,
+  "Class": "511.3 –511.5",
+  "Keyword": "Graph theory"
+ },
+ {
+  "Id": 287,
+  "Address": "Row 7 Side B",
+  "Shelf": 116,
+  "Class": "511.5 -512",
+  "Keyword": "Graph theory"
+ },
+ {
+  "Id": 288,
+  "Address": "Row 7 Side B",
+  "Shelf": 116,
+  "Class": "511.5 -512",
+  "Keyword": "Quantum computing"
+ },
+ {
+  "Id": 289,
+  "Address": "Row 7 Side B",
+  "Shelf": 116,
+  "Class": "511.5 -512",
+  "Keyword": "Algebra"
+ },
+ {
+  "Id": 290,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 117,
+  "Class": "512-512.5",
+  "Keyword": "Algebra"
+ },
+ {
+  "Id": 291,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 117,
+  "Class": "513-512.5",
+  "Keyword": "Abstract algebra"
+ },
+ {
+  "Id": 292,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 117,
+  "Class": "514-512.5",
+  "Keyword": "Linear algebra"
+ },
+ {
+  "Id": 293,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 118,
+  "Class": 512.5,
+  "Keyword": "Linear algebra"
+ },
+ {
+  "Id": 294,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 119,
+  "Class": "512.7- 512.9434",
+  "Keyword": "Number theory and cryptography"
+ },
+ {
+  "Id": 295,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 119,
+  "Class": "512.7- 512.9434",
+  "Keyword": "Matrix analysis"
+ },
+ {
+  "Id": 296,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 120,
+  "Class": "513.19-515",
+  "Keyword": "Topology"
+ },
+ {
+  "Id": 297,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 120,
+  "Class": "513.19-515",
+  "Keyword": "Mathematical technique"
+ },
+ {
+  "Id": 298,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 120,
+  "Class": "513.19-515",
+  "Keyword": "Mathematical analysis"
+ },
+ {
+  "Id": 299,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 120,
+  "Class": "513.19-515",
+  "Keyword": "Real analysis "
+ },
+ {
+  "Id": 300,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 121,
+  "Class": "515-515.2453",
+  "Keyword": "Advanced calculus"
+ },
+ {
+  "Id": 301,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 121,
+  "Class": "516-515.2453",
+  "Keyword": "Calculus and analytic geometry"
+ },
+ {
+  "Id": 302,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 121,
+  "Class": "517-515.2453",
+  "Keyword": "Introduction to wavelets"
+ },
+ {
+  "Id": 303,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 122,
+  "Class": "515.2453-515.353",
+  "Keyword": "Wavelets analysis"
+ },
+ {
+  "Id": 304,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 122,
+  "Class": "515.2453-515.353",
+  "Keyword": "Differential equations and dynamical systems"
+ },
+ {
+  "Id": 305,
+  "Address": "Wooden Row 7-C",
+  "Shelf": 122,
+  "Class": "515.2453-515.353",
+  "Keyword": "Differential equations"
+ },
+ {
+  "Id": 306,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 123,
+  "Class": "515.353 - 515.783",
+  "Keyword": "Ordinary differential equations "
+ },
+ {
+  "Id": 307,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 123,
+  "Class": "515.353 - 515.783",
+  "Keyword": "Partial differential equations"
+ },
+ {
+  "Id": 308,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 123,
+  "Class": "515.353 - 515.783",
+  "Keyword": "Integral calculus"
+ },
+ {
+  "Id": 309,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 123,
+  "Class": "515.353 - 515.783",
+  "Keyword": "Vector analysis Functional analysis"
+ },
+ {
+  "Id": 310,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 124,
+  "Class": "515.8 - 515.93",
+  "Keyword": "Real analysis"
+ },
+ {
+  "Id": 311,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 124,
+  "Class": "515.8 - 515.93",
+  "Keyword": "Complex analysis"
+ },
+ {
+  "Id": 312,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 124,
+  "Class": "515.8 - 515.93",
+  "Keyword": "Complex variables"
+ },
+ {
+  "Id": 313,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 125,
+  "Class": "516 - 518.6",
+  "Keyword": "Geometry"
+ },
+ {
+  "Id": 314,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 125,
+  "Class": "516 - 518.6",
+  "Keyword": "Computational geometry"
+ },
+ {
+  "Id": 315,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 125,
+  "Class": "516 - 518.6",
+  "Keyword": "Numerical methods"
+ },
+ {
+  "Id": 316,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 125,
+  "Class": "516 - 518.6",
+  "Keyword": "Applied numerical methods with MATLAB"
+ },
+ {
+  "Id": 317,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 125,
+  "Class": "516 - 518.6",
+  "Keyword": "Numerical methods for scientific and engineering computation"
+ },
+ {
+  "Id": 318,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 126,
+  "Class": "518.60242 - 519.2",
+  "Keyword": "Numerical methods for engineering"
+ },
+ {
+  "Id": 319,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 126,
+  "Class": "518.60242 - 519.2",
+  "Keyword": "Probability models"
+ },
+ {
+  "Id": 320,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 126,
+  "Class": "518.60242 - 519.2",
+  "Keyword": "Probabilities"
+ },
+ {
+  "Id": 321,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 126,
+  "Class": "518.60242 - 519.2",
+  "Keyword": "Probability random variables"
+ },
+ {
+  "Id": 322,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 127,
+  "Class": "519.2 - 519.5",
+  "Keyword": "Probability theory"
+ },
+ {
+  "Id": 323,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 127,
+  "Class": "519.2 - 519.5",
+  "Keyword": "Basic statistics"
+ },
+ {
+  "Id": 324,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 127,
+  "Class": "519.2 - 519.5",
+  "Keyword": "Probability and statistics"
+ },
+ {
+  "Id": 325,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 127,
+  "Class": "519.2 - 519.5",
+  "Keyword": "Numerical analysis"
+ },
+ {
+  "Id": 326,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 128,
+  "Class": "519.5- 519.82",
+  "Keyword": "Probability and statistics "
+ },
+ {
+  "Id": 327,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 128,
+  "Class": "519.5- 519.82",
+  "Keyword": "Statistics"
+ },
+ {
+  "Id": 328,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 128,
+  "Class": "519.5- 519.82",
+  "Keyword": "Game theory"
+ },
+ {
+  "Id": 329,
+  "Address": "Wooden Row 8 ",
+  "Shelf": 128,
+  "Class": "519.5- 519.82",
+  "Keyword": "Queueing theory"
+ },
+ {
+  "Id": 330,
+  "Address": "Row 9 Side A",
+  "Shelf": 129,
+  "Class": "520 - 530",
+  "Keyword": "Astrophysics"
+ },
+ {
+  "Id": 331,
+  "Address": "Row 9 Side A",
+  "Shelf": 129,
+  "Class": "521 - 530",
+  "Keyword": "Cosmology"
+ },
+ {
+  "Id": 332,
+  "Address": "Row 9 Side A",
+  "Shelf": 129,
+  "Class": "522 - 530",
+  "Keyword": "Physics"
+ },
+ {
+  "Id": 333,
+  "Address": "Row 9 Side A",
+  "Shelf": 129,
+  "Class": "523 - 530",
+  "Keyword": "Applied physic"
+ },
+ {
+  "Id": 334,
+  "Address": "Row 9 Side A",
+  "Shelf": 129,
+  "Class": "523 - 530",
+  "Keyword": "Fundamentals of physics "
+ },
+ {
+  "Id": 335,
+  "Address": "Row 9 Side A",
+  "Shelf": 130,
+  "Class": "530 -530.0285",
+  "Keyword": "Physics"
+ },
+ {
+  "Id": 336,
+  "Address": "Row 9 Side A",
+  "Shelf": 130,
+  "Class": "531 -530.0285",
+  "Keyword": "Albert Einstein"
+ },
+ {
+  "Id": 337,
+  "Address": "Row 9 Side A",
+  "Shelf": 130,
+  "Class": "532 -530.0285",
+  "Keyword": "Engineering physics"
+ },
+ {
+  "Id": 338,
+  "Address": "Row 9 Side A",
+  "Shelf": 130,
+  "Class": "533 -530.0285",
+  "Keyword": "Modern physics"
+ },
+ {
+  "Id": 339,
+  "Address": "Row 9 Side A",
+  "Shelf": 131,
+  "Class": "530.1-530.124",
+  "Keyword": "Gravity"
+ },
+ {
+  "Id": 340,
+  "Address": "Row 9 Side A",
+  "Shelf": 131,
+  "Class": "530.1-530.124",
+  "Keyword": "General relativity"
+ },
+ {
+  "Id": 341,
+  "Address": "Row 9 Side A",
+  "Shelf": 131,
+  "Class": "530.1-530.124",
+  "Keyword": "Cosmology"
+ },
+ {
+  "Id": 342,
+  "Address": "Row 9 Side A",
+  "Shelf": 131,
+  "Class": "530.1-530.124",
+  "Keyword": "Quantum mechanics"
+ },
+ {
+  "Id": 343,
+  "Address": "Row 9 Side A",
+  "Shelf": 132,
+  "Class": "530.124-530.1433",
+  "Keyword": "Waves"
+ },
+ {
+  "Id": 344,
+  "Address": "Row 9 Side A",
+  "Shelf": 132,
+  "Class": "530.124-530.1433",
+  "Keyword": "Statistical mechanics"
+ },
+ {
+  "Id": 345,
+  "Address": "Row 9 Side A",
+  "Shelf": 132,
+  "Class": "530.124-530.1433",
+  "Keyword": "Engineering electromagnetics"
+ },
+ {
+  "Id": 346,
+  "Address": "Row 9 Side A",
+  "Shelf": 133,
+  "Class": "530.141 -530.41",
+  "Keyword": "Quantum field theory"
+ },
+ {
+  "Id": 347,
+  "Address": "Row 9 Side A",
+  "Shelf": 133,
+  "Class": "530.141 -530.41",
+  "Keyword": "Mathematical methods for physicist"
+ },
+ {
+  "Id": 348,
+  "Address": "Row 9 Side A",
+  "Shelf": 133,
+  "Class": "530.141 -530.41",
+  "Keyword": "Statistical physics"
+ },
+ {
+  "Id": 349,
+  "Address": "Row 9 Side A",
+  "Shelf": 133,
+  "Class": "530.141 -530.41",
+  "Keyword": "Mathematical physics"
+ },
+ {
+  "Id": 350,
+  "Address": "Row 9 Side A",
+  "Shelf": 133,
+  "Class": "530.141 -530.41",
+  "Keyword": "Quantum mechanics"
+ },
+ {
+  "Id": 351,
+  "Address": "Row 9 Side A",
+  "Shelf": 134,
+  "Class": "530.41- 531",
+  "Keyword": "Solid state physics"
+ },
+ {
+  "Id": 352,
+  "Address": "Row 9 Side A",
+  "Shelf": 134,
+  "Class": "530.41- 531",
+  "Keyword": "Continuum mechanics"
+ },
+ {
+  "Id": 353,
+  "Address": "Row 9 Side A",
+  "Shelf": 134,
+  "Class": "530.41- 531",
+  "Keyword": "Classical mechanics"
+ },
+ {
+  "Id": 354,
+  "Address": "Row 9 Side A",
+  "Shelf": 135,
+  "Class": 531,
+  "Keyword": "Classical mechanics"
+ },
+ {
+  "Id": 355,
+  "Address": "Row 9 Side A",
+  "Shelf": 135,
+  "Class": 531,
+  "Keyword": "Mechanics"
+ },
+ {
+  "Id": 356,
+  "Address": "Row 9 Side A",
+  "Shelf": 135,
+  "Class": 531,
+  "Keyword": "Introduction to mechanics"
+ },
+ {
+  "Id": 357,
+  "Address": "Row 9 Side B",
+  "Shelf": 136,
+  "Class": "531-532",
+  "Keyword": "Fluid mechanics"
+ },
+ {
+  "Id": 358,
+  "Address": "Row 9 Side B",
+  "Shelf": 137,
+  "Class": "532-535.201",
+  "Keyword": "Introduction to optics"
+ },
+ {
+  "Id": 359,
+  "Address": "Row 9 Side B",
+  "Shelf": 137,
+  "Class": "532-535.201",
+  "Keyword": "Optics"
+ },
+ {
+  "Id": 360,
+  "Address": "Row 9 Side B",
+  "Shelf": 137,
+  "Class": "532-535.201",
+  "Keyword": "Nonlinear optics"
+ },
+ {
+  "Id": 361,
+  "Address": "Row 9 Side B",
+  "Shelf": 138,
+  "Class": "536.2-536.7",
+  "Keyword": "Heat and mass transfer"
+ },
+ {
+  "Id": 362,
+  "Address": "Row 9 Side B",
+  "Shelf": 138,
+  "Class": "536.2-536.7",
+  "Keyword": "Thermodynamics"
+ },
+ {
+  "Id": 363,
+  "Address": "Row 9 Side B",
+  "Shelf": 139,
+  "Class": "536.7 -537.6",
+  "Keyword": "Thermodynamics "
+ },
+ {
+  "Id": 364,
+  "Address": "Row 9 Side B",
+  "Shelf": 139,
+  "Class": "536.7 -537.6",
+  "Keyword": "Electrodynamics "
+ },
+ {
+  "Id": 365,
+  "Address": "Row 9 Side B",
+  "Shelf": 139,
+  "Class": "536.7 -537.6",
+  "Keyword": "Electromagnetics "
+ },
+ {
+  "Id": 366,
+  "Address": "Row 9 Side B",
+  "Shelf": 139,
+  "Class": "536.7 -537.6",
+  "Keyword": "Electromagnetism "
+ },
+ {
+  "Id": 367,
+  "Address": "Row 9 Side B",
+  "Shelf": 139,
+  "Class": "536.7 -537.6",
+  "Keyword": "Semiconductor of physics and devices"
+ },
+ {
+  "Id": 368,
+  "Address": "Row 9 Side B",
+  "Shelf": 140,
+  "Class": "537.6 -537.622",
+  "Keyword": "Electrodynamics "
+ },
+ {
+  "Id": 369,
+  "Address": "Row 9 Side B",
+  "Shelf": 140,
+  "Class": "537.6 -537.622",
+  "Keyword": "Semiconductor of physics and devices"
+ },
+ {
+  "Id": 370,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 141,
+  "Class": "537.622 - 539",
+  "Keyword": "Physics of semiconductor devices"
+ },
+ {
+  "Id": 371,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 141,
+  "Class": "537.622 - 540",
+  "Keyword": "Magnetism "
+ },
+ {
+  "Id": 372,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 141,
+  "Class": "537.622 - 541",
+  "Keyword": "Modern physics"
+ },
+ {
+  "Id": 373,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 142,
+  "Class": "539-539.2",
+  "Keyword": "Electromagnetic waves and radiating system "
+ },
+ {
+  "Id": 374,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 142,
+  "Class": "539-539.2",
+  "Keyword": "Quantum physics"
+ },
+ {
+  "Id": 375,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 143,
+  "Class": "539.7 - 545",
+  "Keyword": "Nuclear physics "
+ },
+ {
+  "Id": 376,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 143,
+  "Class": "539.7 - 546",
+  "Keyword": "Quantum chemistry"
+ },
+ {
+  "Id": 377,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 144,
+  "Class": "545 -551.6",
+  "Keyword": "Inorganic chemistry "
+ },
+ {
+  "Id": 378,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 144,
+  "Class": "546 -551.6",
+  "Keyword": "Organic chemistry"
+ },
+ {
+  "Id": 379,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 144,
+  "Class": "547 -551.6",
+  "Keyword": "Geophysics "
+ },
+ {
+  "Id": 380,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 144,
+  "Class": "548 -551.6",
+  "Keyword": "Earth science"
+ },
+ {
+  "Id": 381,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 145,
+  "Class": "570 - 571.96",
+  "Keyword": "Biology "
+ },
+ {
+  "Id": 382,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 145,
+  "Class": "571 - 571.96",
+  "Keyword": "Bioinformatics "
+ },
+ {
+  "Id": 383,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 145,
+  "Class": "572 - 571.96",
+  "Keyword": "Biophysics "
+ },
+ {
+  "Id": 384,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 145,
+  "Class": "573 - 571.96",
+  "Keyword": "Mathematical biology"
+ },
+ {
+  "Id": 385,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 146,
+  "Class": "572 - 572.8633",
+  "Keyword": "Biochemistry "
+ },
+ {
+  "Id": 386,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 146,
+  "Class": "573 - 572.8633",
+  "Keyword": "Bioinformatics"
+ },
+ {
+  "Id": 387,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 147,
+  "Class": "573.4 - 577",
+  "Keyword": "Genetics "
+ },
+ {
+  "Id": 388,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 147,
+  "Class": "573.4 - 577",
+  "Keyword": "Environmental science "
+ },
+ {
+  "Id": 389,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 147,
+  "Class": "573.4 - 577",
+  "Keyword": "Ecology"
+ },
+ {
+  "Id": 390,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 148,
+  "Class": "577.01 - 581.38",
+  "Keyword": "Chemistry of the environment "
+ },
+ {
+  "Id": 391,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 148,
+  "Class": "577.01 - 581.38",
+  "Keyword": "Microbiology "
+ },
+ {
+  "Id": 392,
+  "Address": "Wooden Row 9-C ",
+  "Shelf": 148,
+  "Class": "577.01 - 581.38",
+  "Keyword": "Ecology"
+ },
+ {
+  "Id": 393,
+  "Address": "Row 10 Side A",
+  "Shelf": 149,
+  "Class": "600 - 612",
+  "Keyword": "Engineering drawing "
+ },
+ {
+  "Id": 394,
+  "Address": "Row 10 Side A",
+  "Shelf": 149,
+  "Class": "601 - 612",
+  "Keyword": "Biomedical engineering "
+ },
+ {
+  "Id": 395,
+  "Address": "Row 10 Side A",
+  "Shelf": 149,
+  "Class": "602 - 612",
+  "Keyword": "Human anatomy"
+ },
+ {
+  "Id": 396,
+  "Address": "Row 10 Side A",
+  "Shelf": 150,
+  "Class": "612 - 620.00151",
+  "Keyword": "Yoga Immunology"
+ },
+ {
+  "Id": 397,
+  "Address": "Row 10 Side A",
+  "Shelf": 150,
+  "Class": "613 - 620.00151",
+  "Keyword": "Ethics in engineering"
+ },
+ {
+  "Id": 398,
+  "Address": "Row 10 Side A",
+  "Shelf": 151,
+  "Class": "620.001- 620.00151",
+  "Keyword": "Advanced engineering mathematics "
+ },
+ {
+  "Id": 399,
+  "Address": "Row 10 Side A",
+  "Shelf": 151,
+  "Class": "620.001- 620.00151",
+  "Keyword": "Finite element method"
+ },
+ {
+  "Id": 400,
+  "Address": "Row 10 Side A",
+  "Shelf": 152,
+  "Class": "620.00151 - 620.0013",
+  "Keyword": "Finite element analysis "
+ },
+ {
+  "Id": 401,
+  "Address": "Row 10 Side A",
+  "Shelf": 152,
+  "Class": "620.00151 - 620.0013",
+  "Keyword": "MATLAB "
+ },
+ {
+  "Id": 402,
+  "Address": "Row 10 Side A",
+  "Shelf": 152,
+  "Class": "620.00151 - 620.0013",
+  "Keyword": "Renewable energy"
+ },
+ {
+  "Id": 403,
+  "Address": "Row 10 Side A",
+  "Shelf": 152,
+  "Class": "620.00151 - 620.0013",
+  "Keyword": "Engineering metrology"
+ },
+ {
+  "Id": 404,
+  "Address": "Row 10 Side A",
+  "Shelf": 153,
+  "Class": "620.00420 - 620.00452",
+  "Keyword": "Engineering mechanics "
+ },
+ {
+  "Id": 405,
+  "Address": "Row 10 Side A",
+  "Shelf": 153,
+  "Class": "620.00420 - 620.00452",
+  "Keyword": "Mechanics of materials"
+ },
+ {
+  "Id": 406,
+  "Address": "Row 10 Side A",
+  "Shelf": 154,
+  "Class": "620.00452 - 620.0954",
+  "Keyword": "Measurement systems "
+ },
+ {
+  "Id": 407,
+  "Address": "Row 10 Side A",
+  "Shelf": 154,
+  "Class": "620.00452 - 620.0954",
+  "Keyword": "Reliability engineering"
+ },
+ {
+  "Id": 408,
+  "Address": "Row 10 Side A",
+  "Shelf": 155,
+  "Class": "620.1- 620.105",
+  "Keyword": "Engineering mechanics "
+ },
+ {
+  "Id": 409,
+  "Address": "Row 10 Side A",
+  "Shelf": 155,
+  "Class": "620.1- 620.105",
+  "Keyword": "Solid mechanics"
+ },
+ {
+  "Id": 410,
+  "Address": "Row 10 Side A",
+  "Shelf": 155,
+  "Class": "620.1- 620.105",
+  "Keyword": "Dynamics"
+ },
+ {
+  "Id": 411,
+  "Address": "Row 10 Side B",
+  "Shelf": 156,
+  "Class": 620.106,
+  "Keyword": "Fluid mechanics and Hydraulic machine "
+ },
+ {
+  "Id": 412,
+  "Address": "Row 10 Side B",
+  "Shelf": 156,
+  "Class": 620.106,
+  "Keyword": "Fluid mechanics"
+ },
+ {
+  "Id": 413,
+  "Address": "Row 10 Side B",
+  "Shelf": 156,
+  "Class": 620.106,
+  "Keyword": "Machinery"
+ },
+ {
+  "Id": 414,
+  "Address": "Row 10 Side B",
+  "Shelf": 157,
+  "Class": "620.106 -620.11",
+  "Keyword": "Mechanics of fluids "
+ },
+ {
+  "Id": 415,
+  "Address": "Row 10 Side B",
+  "Shelf": 157,
+  "Class": "620.106 -620.11",
+  "Keyword": "System dynamics "
+ },
+ {
+  "Id": 416,
+  "Address": "Row 10 Side B",
+  "Shelf": 157,
+  "Class": "620.106 -620.11",
+  "Keyword": "Computational and fluid dynamics "
+ },
+ {
+  "Id": 417,
+  "Address": "Row 10 Side B",
+  "Shelf": 157,
+  "Class": "620.106 -620.11",
+  "Keyword": "Material science and engineering"
+ },
+ {
+  "Id": 418,
+  "Address": "Row 10 Side B",
+  "Shelf": 158,
+  "Class": "620.11- 620.5",
+  "Keyword": "Mechanics of materials "
+ },
+ {
+  "Id": 419,
+  "Address": "Row 10 Side B",
+  "Shelf": 158,
+  "Class": "620.11- 620.5",
+  "Keyword": "Strength of material "
+ },
+ {
+  "Id": 420,
+  "Address": "Row 10 Side B",
+  "Shelf": 158,
+  "Class": "620.11- 620.5",
+  "Keyword": "Mechanical vibrations "
+ },
+ {
+  "Id": 421,
+  "Address": "Row 10 Side B",
+  "Shelf": 158,
+  "Class": "620.11- 620.5",
+  "Keyword": "Nanotechnology"
+ },
+ {
+  "Id": 422,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Microfabrication"
+ },
+ {
+  "Id": 423,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Nanostructure "
+ },
+ {
+  "Id": 424,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Nanotechnology "
+ },
+ {
+  "Id": 425,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Environmental science and engineering  "
+ },
+ {
+  "Id": 426,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Mechanical engineering "
+ },
+ {
+  "Id": 427,
+  "Address": "Row 10 Side B",
+  "Shelf": 159,
+  "Class": "620.5 - 621",
+  "Keyword": "Mechatronics"
+ },
+ {
+  "Id": 428,
+  "Address": "Row 10 Side B",
+  "Shelf": 160,
+  "Class": "621 - 621.3",
+  "Keyword": "Theory of machines "
+ },
+ {
+  "Id": 429,
+  "Address": "Row 10 Side B",
+  "Shelf": 160,
+  "Class": "621 - 621.3",
+  "Keyword": "Electrical engineering "
+ },
+ {
+  "Id": 430,
+  "Address": "Row 10 Side B",
+  "Shelf": 160,
+  "Class": "621 - 621.3",
+  "Keyword": "Hydraulic machines"
+ },
+ {
+  "Id": 431,
+  "Address": "Row 10 Side B",
+  "Shelf": 160,
+  "Class": "621 - 621.3",
+  "Keyword": "Mechatronics "
+ },
+ {
+  "Id": 432,
+  "Address": "Row 10 Side B",
+  "Shelf": 161,
+  "Class": 621.3,
+  "Keyword": "Electrical engineering "
+ },
+ {
+  "Id": 433,
+  "Address": "Row 10 Side B",
+  "Shelf": 162,
+  "Class": "621.3 -621.3104",
+  "Keyword": "Foundations of MEMS"
+ },
+ {
+  "Id": 434,
+  "Address": "Row 10 Side B",
+  "Shelf": 162,
+  "Class": "621.3 -621.3104",
+  "Keyword": " Circuit theory "
+ },
+ {
+  "Id": 435,
+  "Address": "Row 10 Side B",
+  "Shelf": 162,
+  "Class": "621.3 -621.3104",
+  "Keyword": "Electrical engineering "
+ },
+ {
+  "Id": 436,
+  "Address": "Row 10 Side B",
+  "Shelf": 162,
+  "Class": "621.3 -621.3104",
+  "Keyword": "Electromagnetic field theory "
+ },
+ {
+  "Id": 437,
+  "Address": "Row 10 Side B",
+  "Shelf": 162,
+  "Class": "621.3 -621.3104",
+  "Keyword": "Electrical mechanics"
+ },
+ {
+  "Id": 438,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 163,
+  "Class": "621.31042 - 621.317",
+  "Keyword": "Electric machinery "
+ },
+ {
+  "Id": 439,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 163,
+  "Class": "621.31042 - 621.317",
+  "Keyword": "Power plant engineering "
+ },
+ {
+  "Id": 440,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 163,
+  "Class": "621.31042 - 621.317",
+  "Keyword": "Power electronics"
+ },
+ {
+  "Id": 441,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 164,
+  "Class": "621.317 - 621.3170",
+  "Keyword": "Power electronics"
+ },
+ {
+  "Id": 442,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 164,
+  "Class": "621.317 - 621.3170",
+  "Keyword": "Circuit devices and systems "
+ },
+ {
+  "Id": 443,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 164,
+  "Class": "621.317 - 621.3170",
+  "Keyword": "PSpice using OrCAD"
+ },
+ {
+  "Id": 444,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 165,
+  "Class": "621.3183 - 621.3192",
+  "Keyword": "Microwave engineering "
+ },
+ {
+  "Id": 445,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 165,
+  "Class": "621.3183 - 621.3192",
+  "Keyword": "Electric power distribution "
+ },
+ {
+  "Id": 446,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 165,
+  "Class": "621.3183 - 621.3192",
+  "Keyword": "Electromagnetic field theory "
+ },
+ {
+  "Id": 447,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 165,
+  "Class": "621.3183 - 621.3192",
+  "Keyword": "Electric circuits theory "
+ },
+ {
+  "Id": 448,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 165,
+  "Class": "621.3183 - 621.3192",
+  "Keyword": "Microwave integrated circuits"
+ },
+ {
+  "Id": 449,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 166,
+  "Class": "621.3192 - 621.3192",
+  "Keyword": "Circuit analysis "
+ },
+ {
+  "Id": 450,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 166,
+  "Class": "621.3192 - 621.3192",
+  "Keyword": "Circuits and networks"
+ },
+ {
+  "Id": 451,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 167,
+  "Class": "621.31920 - 621.31921",
+  "Keyword": "Linear circuits"
+ },
+ {
+  "Id": 452,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 167,
+  "Class": "621.31920 - 621.31921",
+  "Keyword": "Linear circuits analysis "
+ },
+ {
+  "Id": 453,
+  "Address": "Wooden Row 10-C",
+  "Shelf": 168,
+  "Class": 621.31924,
+  "Keyword": "Fundamental of electric circuits"
+ },
+ {
+  "Id": 454,
+  "Address": "Row 11 Side A",
+  "Shelf": 169,
+  "Class": "621.340 - 621.367",
+  "Keyword": "Finite elements methods of electromagnetics "
+ },
+ {
+  "Id": 455,
+  "Address": "Row 11 Side A",
+  "Shelf": 169,
+  "Class": "621.340 - 621.367",
+  "Keyword": "Digital image processing"
+ },
+ {
+  "Id": 456,
+  "Address": "Row 11 Side A",
+  "Shelf": 169,
+  "Class": "621.340 - 621.367",
+  "Keyword": "Optics"
+ },
+ {
+  "Id": 457,
+  "Address": "Row 11 Side A",
+  "Shelf": 170,
+  "Class": "621.366 - 621.37",
+  "Keyword": "Digital image processing "
+ },
+ {
+  "Id": 458,
+  "Address": "Row 11 Side A",
+  "Shelf": 170,
+  "Class": "621.366 - 621.37",
+  "Keyword": "Remote sensing "
+ },
+ {
+  "Id": 459,
+  "Address": "Row 11 Side A",
+  "Shelf": 170,
+  "Class": "621.366 - 621.37",
+  "Keyword": "Fiber optics "
+ },
+ {
+  "Id": 460,
+  "Address": "Row 11 Side A",
+  "Shelf": 170,
+  "Class": "621.366 - 621.37",
+  "Keyword": "Electrical measurements and instrumentations"
+ },
+ {
+  "Id": 461,
+  "Address": "Row 11 Side A",
+  "Shelf": 171,
+  "Class": "621.37-621.38",
+  "Keyword": "Transducers and instrumentation "
+ },
+ {
+  "Id": 462,
+  "Address": "Row 11 Side A",
+  "Shelf": 171,
+  "Class": "621.37-621.38",
+  "Keyword": "Analog and digital communication "
+ },
+ {
+  "Id": 463,
+  "Address": "Row 11 Side A",
+  "Shelf": 171,
+  "Class": "621.37-621.38",
+  "Keyword": "Electronic communication "
+ },
+ {
+  "Id": 464,
+  "Address": "Row 11 Side A",
+  "Shelf": 171,
+  "Class": "621.37-621.38",
+  "Keyword": "Communication engineering "
+ },
+ {
+  "Id": 465,
+  "Address": "Row 11 Side A",
+  "Shelf": 171,
+  "Class": "621.37-621.38",
+  "Keyword": "Electrical measurements and instrumentations"
+ },
+ {
+  "Id": 466,
+  "Address": "Row 11 Side A",
+  "Shelf": 172,
+  "Class": 621.381,
+  "Keyword": "Microelectronics "
+ },
+ {
+  "Id": 467,
+  "Address": "Row 11 Side A",
+  "Shelf": 172,
+  "Class": 621.381,
+  "Keyword": "Electromechanics "
+ },
+ {
+  "Id": 468,
+  "Address": "Row 11 Side A",
+  "Shelf": 172,
+  "Class": 621.381,
+  "Keyword": "Electronic principles"
+ },
+ {
+  "Id": 469,
+  "Address": "Row 11 Side A",
+  "Shelf": 173,
+  "Class": 621.381,
+  "Keyword": "Microelectronics "
+ },
+ {
+  "Id": 470,
+  "Address": "Row 11 Side A",
+  "Shelf": 173,
+  "Class": 621.381,
+  "Keyword": "Electronic engineering "
+ },
+ {
+  "Id": 471,
+  "Address": "Row 11 Side A",
+  "Shelf": 173,
+  "Class": 621.381,
+  "Keyword": "Digital integrated electronics"
+ },
+ {
+  "Id": 472,
+  "Address": "Row 11 Side A",
+  "Shelf": 174,
+  "Class": "621.381- 621.3813",
+  "Keyword": "Digital integrated electronics Optoelectronics "
+ },
+ {
+  "Id": 473,
+  "Address": "Row 11 Side A",
+  "Shelf": 174,
+  "Class": "621.381- 621.3813",
+  "Keyword": "Digital circuits and systems"
+ },
+ {
+  "Id": 474,
+  "Address": "Row 11 Side A",
+  "Shelf": 175,
+  "Class": "621.3813 - 621.38132",
+  "Keyword": "Microwaves engineering "
+ },
+ {
+  "Id": 475,
+  "Address": "Row 11 Side A",
+  "Shelf": 175,
+  "Class": "621.3813 - 621.38132",
+  "Keyword": "Electric machines "
+ },
+ {
+  "Id": 476,
+  "Address": "Row 11 Side A",
+  "Shelf": 175,
+  "Class": "621.3813 - 621.38132",
+  "Keyword": "Microelectronic circuits  "
+ },
+ {
+  "Id": 477,
+  "Address": "Row 11 Side B",
+  "Shelf": 176,
+  "Class": 621.38132,
+  "Keyword": "Microelectronic circuits"
+ },
+ {
+  "Id": 478,
+  "Address": "Row 11 Side B",
+  "Shelf": 177,
+  "Class": "621.38132-621.3815",
+  "Keyword": "Microelectronic circuits "
+ },
+ {
+  "Id": 479,
+  "Address": "Row 11 Side B",
+  "Shelf": 177,
+  "Class": "621.38132-621.3815",
+  "Keyword": "Electronic devices and circuit theory "
+ },
+ {
+  "Id": 480,
+  "Address": "Row 11 Side B",
+  "Shelf": 178,
+  "Class": 621.3815,
+  "Keyword": "Electronic devices and circuit theory "
+ },
+ {
+  "Id": 481,
+  "Address": "Row 11 Side B",
+  "Shelf": 178,
+  "Class": 621.3815,
+  "Keyword": "Electronic circuits "
+ },
+ {
+  "Id": 482,
+  "Address": "Row 11 Side B",
+  "Shelf": 178,
+  "Class": 621.3815,
+  "Keyword": "Digital system testing "
+ },
+ {
+  "Id": 483,
+  "Address": "Row 11 Side B",
+  "Shelf": 178,
+  "Class": 621.3815,
+  "Keyword": "Analog integrated circuit design"
+ },
+ {
+  "Id": 484,
+  "Address": "Row 11 Side B",
+  "Shelf": 179,
+  "Class": 621.3815,
+  "Keyword": "Electronic circuits analysis and design "
+ },
+ {
+  "Id": 485,
+  "Address": "Row 11 Side B",
+  "Shelf": 179,
+  "Class": 621.3815,
+  "Keyword": "Digital circuits"
+ },
+ {
+  "Id": 486,
+  "Address": "Row 11 Side B",
+  "Shelf": 179,
+  "Class": 621.3815,
+  "Keyword": "Digital circuits and logic design "
+ },
+ {
+  "Id": 487,
+  "Address": "Row 11 Side B",
+  "Shelf": 179,
+  "Class": 621.3815,
+  "Keyword": "Digital design"
+ },
+ {
+  "Id": 488,
+  "Address": "Row 11 Side B",
+  "Shelf": 180,
+  "Class": 621.3815,
+  "Keyword": "Digital integrated circuits design "
+ },
+ {
+  "Id": 489,
+  "Address": "Row 11 Side B",
+  "Shelf": 180,
+  "Class": 621.3815,
+  "Keyword": "Integrated electronics  "
+ },
+ {
+  "Id": 490,
+  "Address": "Row 11 Side B",
+  "Shelf": 180,
+  "Class": 621.3815,
+  "Keyword": "Transistor"
+ },
+ {
+  "Id": 491,
+  "Address": "Row 11 Side B",
+  "Shelf": 180,
+  "Class": 621.3815,
+  "Keyword": "Digital circuit design"
+ },
+ {
+  "Id": 492,
+  "Address": "Row 11 Side B",
+  "Shelf": 181,
+  "Class": "621.3815 - 621.38152",
+  "Keyword": "Semiconductor devices "
+ },
+ {
+  "Id": 493,
+  "Address": "Row 11 Side B",
+  "Shelf": 181,
+  "Class": "621.3815 - 621.38152",
+  "Keyword": "Digital integrated circuits "
+ },
+ {
+  "Id": 494,
+  "Address": "Row 11 Side B",
+  "Shelf": 181,
+  "Class": "621.3815 -621.38152",
+  "Keyword": "Semiconductor devices and circuits "
+ },
+ {
+  "Id": 495,
+  "Address": "Row 11 Side B",
+  "Shelf": 182,
+  "Class": "621.38152-621.38154",
+  "Keyword": "Semiconductor devices "
+ },
+ {
+  "Id": 496,
+  "Address": "Row 11 Side B",
+  "Shelf": 182,
+  "Class": "621.38152-621.38154",
+  "Keyword": "Solid-state electronic "
+ },
+ {
+  "Id": 497,
+  "Address": "Row 11 Side B",
+  "Shelf": 182,
+  "Class": "621.38152-621.38154",
+  "Keyword": "devices "
+ },
+ {
+  "Id": 498,
+  "Address": "Row 11 Side B",
+  "Shelf": 182,
+  "Class": "621.38152-621.38154",
+  "Keyword": "Operational amplifier "
+ },
+ {
+  "Id": 499,
+  "Address": "Row 11 Side B",
+  "Shelf": 182,
+  "Class": "621.38152-621.38154",
+  "Keyword": "Electronic instrumentations"
+ },
+ {
+  "Id": 500,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Adaptive filter theory"
+ },
+ {
+  "Id": 501,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Wireless sensor network "
+ },
+ {
+  "Id": 502,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Electronic instrumentation "
+ },
+ {
+  "Id": 503,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Digital and analog communication systems "
+ },
+ {
+  "Id": 504,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Telecommunications"
+ },
+ {
+  "Id": 505,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 183,
+  "Class": "621.381532-621.382",
+  "Keyword": "Digital fundamentals"
+ },
+ {
+  "Id": 506,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 184,
+  "Class": 621.382,
+  "Keyword": "Digital communications "
+ },
+ {
+  "Id": 507,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 184,
+  "Class": 621.382,
+  "Keyword": "Communication systems "
+ },
+ {
+  "Id": 508,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 184,
+  "Class": 621.382,
+  "Keyword": "Art of electronics "
+ },
+ {
+  "Id": 509,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 184,
+  "Class": 621.382,
+  "Keyword": "Modern digital and analog communication systems"
+ },
+ {
+  "Id": 510,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 185,
+  "Class": "621.382-621.382076",
+  "Keyword": "Telecommunications "
+ },
+ {
+  "Id": 511,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 185,
+  "Class": "621.382-621.382076",
+  "Keyword": "Communications systems "
+ },
+ {
+  "Id": 512,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 185,
+  "Class": "621.382-621.382076",
+  "Keyword": "Digital communications"
+ },
+ {
+  "Id": 513,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 186,
+  "Class": "621.382076-621.3822",
+  "Keyword": "Principle of communication "
+ },
+ {
+  "Id": 514,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 186,
+  "Class": "621.382076-621.3822",
+  "Keyword": "Network analysis "
+ },
+ {
+  "Id": 515,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 186,
+  "Class": "621.382076-621.3822",
+  "Keyword": "Communication networks"
+ },
+ {
+  "Id": 516,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 187,
+  "Class": 621.3822,
+  "Keyword": "Digital signal processing "
+ },
+ {
+  "Id": 517,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 187,
+  "Class": 621.3822,
+  "Keyword": "Communication networks "
+ },
+ {
+  "Id": 518,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 187,
+  "Class": 621.3822,
+  "Keyword": "Signals and systems"
+ },
+ {
+  "Id": 519,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 187,
+  "Class": 621.3822,
+  "Keyword": "Linear systems"
+ },
+ {
+  "Id": 520,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 188,
+  "Class": 621.3822,
+  "Keyword": "Digital signal processing "
+ },
+ {
+  "Id": 521,
+  "Address": "Wooden Row 11-C",
+  "Shelf": 188,
+  "Class": 621.3822,
+  "Keyword": "Signals and systems"
+ },
+ {
+  "Id": 522,
+  "Address": "Row 12 Side A",
+  "Shelf": 189,
+  "Class": 621.3822,
+  "Keyword": "Digital signal processing "
+ },
+ {
+  "Id": 523,
+  "Address": "Row 12 Side A",
+  "Shelf": 189,
+  "Class": 621.3822,
+  "Keyword": "Signals and systems"
+ },
+ {
+  "Id": 524,
+  "Address": "Row 12 Side A",
+  "Shelf": 190,
+  "Class": "621.3822 - 621.38223 ",
+  "Keyword": "Digital signal processing"
+ },
+ {
+  "Id": 525,
+  "Address": "Row 12 Side A",
+  "Shelf": 190,
+  "Class": "621.3822 - 621.38223 ",
+  "Keyword": "Signals and systems "
+ },
+ {
+  "Id": 526,
+  "Address": "Row 12 Side A",
+  "Shelf": 190,
+  "Class": "621.3822 - 621.38223 ",
+  "Keyword": "Satellite communications  "
+ },
+ {
+  "Id": 527,
+  "Address": "Row 12 Side A",
+  "Shelf": 191,
+  "Class": "621.38223 - 621.3825",
+  "Keyword": "Signals and system "
+ },
+ {
+  "Id": 528,
+  "Address": "Row 12 Side A",
+  "Shelf": 191,
+  "Class": "621.38223 - 621.3825",
+  "Keyword": "Antenna theory and design "
+ },
+ {
+  "Id": 529,
+  "Address": "Row 12 Side A",
+  "Shelf": 191,
+  "Class": "621.38223 - 621.3825",
+  "Keyword": "Modern antennas "
+ },
+ {
+  "Id": 530,
+  "Address": "Row 12 Side A",
+  "Shelf": 191,
+  "Class": "621.38223 - 621.3825",
+  "Keyword": "Satellite communications "
+ },
+ {
+  "Id": 531,
+  "Address": "Row 12 Side A",
+  "Shelf": 192,
+  "Class": "621.3827 - 621.38275",
+  "Keyword": "Optical fiber communication "
+ },
+ {
+  "Id": 532,
+  "Address": "Row 12 Side A",
+  "Shelf": 192,
+  "Class": "621.3827 - 621.38275",
+  "Keyword": "Optical networking "
+ },
+ {
+  "Id": 533,
+  "Address": "Row 12 Side A",
+  "Shelf": 192,
+  "Class": "621.3827 - 621.38275",
+  "Keyword": "Fiber optics and optoelectronics "
+ },
+ {
+  "Id": 534,
+  "Address": "Row 12 Side A",
+  "Shelf": 192,
+  "Class": "621.3827 - 621.38275",
+  "Keyword": "Photonics"
+ },
+ {
+  "Id": 535,
+  "Address": "Row 12 Side A",
+  "Shelf": 193,
+  "Class": "621.38275-621.384",
+  "Keyword": "Optical fiber communication "
+ },
+ {
+  "Id": 536,
+  "Address": "Row 12 Side A",
+  "Shelf": 193,
+  "Class": "621.38275-621.384",
+  "Keyword": "Wireless digital communications"
+ },
+ {
+  "Id": 537,
+  "Address": "Row 12 Side A",
+  "Shelf": 193,
+  "Class": "621.38275-621.384",
+  "Keyword": "Wireless networks"
+ },
+ {
+  "Id": 538,
+  "Address": "Row 12 Side A",
+  "Shelf": 194,
+  "Class": 621.384,
+  "Keyword": "Wireless communications "
+ },
+ {
+  "Id": 539,
+  "Address": "Row 12 Side A",
+  "Shelf": 194,
+  "Class": 621.384,
+  "Keyword": "AD HOC wireless networks"
+ },
+ {
+  "Id": 540,
+  "Address": "Row 12 Side A",
+  "Shelf": 195,
+  "Class": "621.384-621.38545",
+  "Keyword": "Wireless communications and networking "
+ },
+ {
+  "Id": 541,
+  "Address": "Row 12 Side A",
+  "Shelf": 195,
+  "Class": "621.384-621.38545",
+  "Keyword": "Cellular Telecommunications"
+ },
+ {
+  "Id": 542,
+  "Address": "Row 12 Side B",
+  "Shelf": 196,
+  "Class": "621.3845 - 621.3851",
+  "Keyword": "Mobile communication engineering "
+ },
+ {
+  "Id": 543,
+  "Address": "Row 12 Side B",
+  "Shelf": 196,
+  "Class": "621.3845 - 621.3851",
+  "Keyword": "Radar principles "
+ },
+ {
+  "Id": 544,
+  "Address": "Row 12 Side B",
+  "Shelf": 196,
+  "Class": "621.3845 - 621.3851",
+  "Keyword": "Network analysis and synthesis "
+ },
+ {
+  "Id": 545,
+  "Address": "Row 12 Side B",
+  "Shelf": 197,
+  "Class": "621.3851- 621.392",
+  "Keyword": "WDM technologies "
+ },
+ {
+  "Id": 546,
+  "Address": "Row 12 Side B",
+  "Shelf": 197,
+  "Class": "621.3851- 621.392",
+  "Keyword": "Network analysis "
+ },
+ {
+  "Id": 547,
+  "Address": "Row 12 Side B",
+  "Shelf": 197,
+  "Class": "621.3851- 621.392",
+  "Keyword": "Verilog HDL"
+ },
+ {
+  "Id": 548,
+  "Address": "Row 12 Side B",
+  "Shelf": 198,
+  "Class": "621.392-621.3925",
+  "Keyword": "Digital design "
+ },
+ {
+  "Id": 549,
+  "Address": "Row 12 Side B",
+  "Shelf": 198,
+  "Class": "621.392-621.3925",
+  "Keyword": "Digital logic design "
+ },
+ {
+  "Id": 550,
+  "Address": "Row 12 Side B",
+  "Shelf": 198,
+  "Class": "621.392-621.3925",
+  "Keyword": "VLSI circuits and systems"
+ },
+ {
+  "Id": 551,
+  "Address": "Row 12 Side B",
+  "Shelf": 199,
+  "Class": 621.395,
+  "Keyword": "Op-Amps and Linear integrated circuits "
+ },
+ {
+  "Id": 552,
+  "Address": "Row 12 Side B",
+  "Shelf": 199,
+  "Class": 621.395,
+  "Keyword": "Digital logic design "
+ },
+ {
+  "Id": 553,
+  "Address": "Row 12 Side B",
+  "Shelf": 199,
+  "Class": 621.395,
+  "Keyword": "CMOS digital integrated circuits "
+ },
+ {
+  "Id": 554,
+  "Address": "Row 12 Side B",
+  "Shelf": 200,
+  "Class": 621.395,
+  "Keyword": "Basic VLSI design "
+ },
+ {
+  "Id": 555,
+  "Address": "Row 12 Side B",
+  "Shelf": 200,
+  "Class": 621.395,
+  "Keyword": "Logic design "
+ },
+ {
+  "Id": 556,
+  "Address": "Row 12 Side B",
+  "Shelf": 200,
+  "Class": 621.395,
+  "Keyword": "VLSI circuits and systems"
+ },
+ {
+  "Id": 557,
+  "Address": "Row 12 Side B",
+  "Shelf": 201,
+  "Class": "621.395 - 621.399",
+  "Keyword": "VLSI technology "
+ },
+ {
+  "Id": 558,
+  "Address": "Row 12 Side B",
+  "Shelf": 201,
+  "Class": "621.395 - 621.399",
+  "Keyword": "Design of analog CMOS integrated circuits"
+ },
+ {
+  "Id": 559,
+  "Address": "Row 12 Side B",
+  "Shelf": 202,
+  "Class": "621.399 - 621.4021",
+  "Keyword": "Speech communications "
+ },
+ {
+  "Id": 560,
+  "Address": "Row 12 Side B",
+  "Shelf": 202,
+  "Class": "621.399 - 621.4021",
+  "Keyword": "Thermal engineering "
+ },
+ {
+  "Id": 561,
+  "Address": "Row 12 Side B",
+  "Shelf": 202,
+  "Keyword": "Engineering thermodynamics"
+ },
+ {
+  "Id": 562,
+  "Address": "Rack 13 Side A",
+  "Shelf": 203,
+  "Class": "621.4021 - 621.4022",
+  "Keyword": "Thermodynamics"
+ },
+ {
+  "Id": 563,
+  "Address": "Row 13 Side A",
+  "Shelf": 203,
+  "Class": "621.4021 - 621.4022",
+  "Keyword": " Heat transfer "
+ },
+ {
+  "Id": 564,
+  "Address": "Row 13 Side A",
+  "Shelf": 204,
+  "Class": "621.4022 - 621.56",
+  "Keyword": "Internal combustion engines "
+ },
+ {
+  "Id": 565,
+  "Address": "Row 13 Side A",
+  "Shelf": 204,
+  "Class": "621.4022 - 621.56",
+  "Keyword": "Refrigeration and air conditioning"
+ },
+ {
+  "Id": 566,
+  "Address": "Row 13 Side A",
+  "Shelf": 204,
+  "Class": "621.4022 - 621.56",
+  "Keyword": "Electric motors "
+ },
+ {
+  "Id": 567,
+  "Address": "Row 13 Side A",
+  "Shelf": 205,
+  "Class": "621.8 - 621.815",
+  "Keyword": "Mechanism and machines "
+ },
+ {
+  "Id": 568,
+  "Address": "Row 13 Side A",
+  "Shelf": 205,
+  "Class": "621.8 - 621.815",
+  "Keyword": "Machine design "
+ },
+ {
+  "Id": 569,
+  "Address": "Row 13 Side A",
+  "Shelf": 205,
+  "Class": "621.8 - 621.815",
+  "Keyword": "Kinematics and dynamics of machinery "
+ },
+ {
+  "Id": 570,
+  "Address": "Row 13 Side A",
+  "Shelf": 206,
+  "Class": "621.815 - 624.171",
+  "Keyword": "Manufacturing technology "
+ },
+ {
+  "Id": 571,
+  "Address": "Row 13 Side A",
+  "Shelf": 206,
+  "Class": "621.815 - 624.171",
+  "Keyword": "Engineering tribology "
+ },
+ {
+  "Id": 572,
+  "Address": "Row 13 Side A",
+  "Shelf": 206,
+  "Class": "621.815 - 624.171",
+  "Keyword": "Engineering geology"
+ },
+ {
+  "Id": 573,
+  "Address": "Row 13 Side A",
+  "Shelf": 207,
+  "Class": "626.6 - 627",
+  "Keyword": "Environmental engineering "
+ },
+ {
+  "Id": 574,
+  "Address": "Row 13 Side A",
+  "Shelf": 208,
+  "Class": "628 - 629.2222",
+  "Keyword": "Wastewater treatment "
+ },
+ {
+  "Id": 575,
+  "Address": "Row 13 Side A",
+  "Shelf": 208,
+  "Class": "628 - 629.2222",
+  "Keyword": "Automotive mechanics "
+ },
+ {
+  "Id": 576,
+  "Address": "Row 13 Side A",
+  "Shelf": 208,
+  "Class": "628 - 629.2222",
+  "Keyword": "Aerodynamics "
+ },
+ {
+  "Id": 577,
+  "Address": "Row 13 Side A",
+  "Shelf": 209,
+  "Class": "629.2222 - 629.8",
+  "Keyword": "Control systems engineering  "
+ },
+ {
+  "Id": 578,
+  "Address": "Row 13 Side A",
+  "Shelf": 209,
+  "Class": "629.2222 - 629.8",
+  "Keyword": "Automobile engineering"
+ },
+ {
+  "Id": 579,
+  "Address": "Row 13 Side A",
+  "Shelf": 209,
+  "Class": "629.2222 - 629.8",
+  "Keyword": "Automotive mechanics"
+ },
+ {
+  "Id": 580,
+  "Address": "Row 13 Side B",
+  "Shelf": 210,
+  "Class": 629.8,
+  "Keyword": "Automotive control systems "
+ },
+ {
+  "Id": 581,
+  "Address": "Row 13 Side B",
+  "Shelf": 210,
+  "Class": 629.8,
+  "Keyword": "Control systems engineering"
+ },
+ {
+  "Id": 582,
+  "Address": "Row 13 Side B",
+  "Shelf": 211,
+  "Class": 629.8,
+  "Keyword": "Control systems engineering"
+ },
+ {
+  "Id": 583,
+  "Address": "Row 13 Side B",
+  "Shelf": 212,
+  "Class": 629.8,
+  "Keyword": "Control systems engineering "
+ },
+ {
+  "Id": 584,
+  "Address": "Row 13 Side B",
+  "Shelf": 212,
+  "Class": 629.8,
+  "Keyword": "Modern control engineering"
+ },
+ {
+  "Id": 585,
+  "Address": "Row 13 Side B",
+  "Shelf": 213,
+  "Class": "629.8 - 629.832",
+  "Keyword": "Control systems-design and principles "
+ },
+ {
+  "Id": 586,
+  "Address": "Row 13 Side B",
+  "Shelf": 213,
+  "Class": "629.8 - 629.832",
+  "Keyword": "Linear control systems"
+ },
+ {
+  "Id": 587,
+  "Address": "Row 13 Side B",
+  "Shelf": 214,
+  "Class": "629.832 - 629.895",
+  "Keyword": "Control systems "
+ },
+ {
+  "Id": 588,
+  "Address": "Row 13 Side B",
+  "Shelf": 214,
+  "Class": "629.832 - 629.895",
+  "Keyword": "Robotics"
+ },
+ {
+  "Id": 589,
+  "Address": "Row 13 Side B",
+  "Shelf": 214,
+  "Class": "629.832 - 629.895",
+  "Keyword": "Feedback control theory "
+ },
+ {
+  "Id": 590,
+  "Address": "Row 13 Side B",
+  "Shelf": 214,
+  "Class": "629.832 - 629.895",
+  "Keyword": "Microcontrollers and embedded systems"
+ },
+ {
+  "Id": 591,
+  "Address": "Row 13 Side B",
+  "Shelf": 215,
+  "Class": "629.835 - 650.1",
+  "Keyword": "Advanced industrial automation "
+ },
+ {
+  "Id": 592,
+  "Address": "Row 13 Side B",
+  "Shelf": 215,
+  "Class": "629.835 - 650.1",
+  "Keyword": "Food chemistry "
+ },
+ {
+  "Id": 593,
+  "Address": "Row 13 Side B",
+  "Shelf": 215,
+  "Class": "629.835 - 650.1",
+  "Keyword": "Management -Business "
+ },
+ {
+  "Id": 594,
+  "Address": "Row 13 Side B",
+  "Shelf": 215,
+  "Class": "629.835 - 650.1",
+  "Keyword": "Soil fertility and fertilizer"
+ },
+ {
+  "Id": 595,
+  "Address": "Row 13 Side B",
+  "Shelf": 216,
+  "Class": "650.01 - 651.75",
+  "Keyword": "Management -Startups "
+ },
+ {
+  "Id": 596,
+  "Address": "Row 13 Side B",
+  "Shelf": 216,
+  "Class": "650.01 - 651.75",
+  "Keyword": "Work life-Business"
+ },
+ {
+  "Id": 597,
+  "Address": "Row 13 Side B",
+  "Shelf": 216,
+  "Class": "650.01 - 651.75",
+  "Keyword": "Soft skills"
+ },
+ {
+  "Id": 598,
+  "Address": "Row 13 Side B",
+  "Shelf": 216,
+  "Class": "650.01 - 651.75",
+  "Keyword": "Business communications"
+ },
+ {
+  "Id": 599,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 217,
+  "Class": "657-658",
+  "Keyword": "Corporate accounting "
+ },
+ {
+  "Id": 600,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 217,
+  "Class": "657-658",
+  "Keyword": "Management -Values"
+ },
+ {
+  "Id": 601,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 217,
+  "Class": "657-658",
+  "Keyword": "Work Execution"
+ },
+ {
+  "Id": 602,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 218,
+  "Class": 658,
+  "Keyword": "Organizational behavior "
+ },
+ {
+  "Id": 603,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 218,
+  "Class": 658,
+  "Keyword": "Business environment "
+ },
+ {
+  "Id": 604,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 219,
+  "Class": 658,
+  "Keyword": "Management "
+ },
+ {
+  "Id": 605,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 219,
+  "Class": 658,
+  "Keyword": "Organizational behavior"
+ },
+ {
+  "Id": 606,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 220,
+  "Class": 658,
+  "Keyword": "Organizational behavior"
+ },
+ {
+  "Id": 607,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 221,
+  "Class": 658,
+  "Keyword": "Organizational behavior"
+ },
+ {
+  "Id": 608,
+  "Address": "Wooden Row 13 -C",
+  "Shelf": 222,
+  "Class": 658,
+  "Keyword": "Organizational behavior"
+ },
+ {
+  "Id": 609,
+  "Address": "Row 14 Side A",
+  "Shelf": 223,
+  "Class": "658 - 658.11",
+  "Keyword": "Organizational behavior "
+ },
+ {
+  "Id": 610,
+  "Address": "Row 14 Side A",
+  "Shelf": 223,
+  "Class": "658 - 658.11",
+  "Keyword": "Startups "
+ },
+ {
+  "Id": 611,
+  "Address": "Row 14 Side A",
+  "Shelf": 223,
+  "Class": "658 - 658.11",
+  "Keyword": "Business research methods"
+ },
+ {
+  "Id": 612,
+  "Address": "Row 14 Side A",
+  "Shelf": 224,
+  "Class": "658.11 - 658.3",
+  "Keyword": "Financial management (Finance- Business- Management) "
+ },
+ {
+  "Id": 613,
+  "Address": "Row 14 Side A",
+  "Shelf": 224,
+  "Class": "658.11 - 658.3",
+  "Keyword": "Human Resource Management "
+ },
+ {
+  "Id": 614,
+  "Address": "Row 14 Side A",
+  "Shelf": 224,
+  "Class": "658.11 - 658.3",
+  "Keyword": "Organizational behavior"
+ },
+ {
+  "Id": 615,
+  "Address": "Row 14 Side A",
+  "Shelf": 225,
+  "Class": "658.3 - 658.4",
+  "Keyword": "Organizational behavior "
+ },
+ {
+  "Id": 616,
+  "Address": "Row 14 Side A",
+  "Shelf": 225,
+  "Class": "658.3 - 658.4",
+  "Keyword": "Managing people "
+ },
+ {
+  "Id": 617,
+  "Address": "Row 14 Side A",
+  "Shelf": 225,
+  "Class": "658.3 - 658.4",
+  "Keyword": "Soft skills"
+ },
+ {
+  "Id": 618,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Art of framing (Storytelling) "
+ },
+ {
+  "Id": 619,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Team- Effective learning "
+ },
+ {
+  "Id": 620,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Soft skills "
+ },
+ {
+  "Id": 621,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Leadership "
+ },
+ {
+  "Id": 622,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Innovation "
+ },
+ {
+  "Id": 623,
+  "Address": "Row 14 Side A",
+  "Shelf": 226,
+  "Class": "658.4 - 658.4013",
+  "Keyword": "Corporation  "
+ },
+ {
+  "Id": 624,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "Total quality management     "
+ },
+ {
+  "Id": 625,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "HBR-Decision making"
+ },
+ {
+  "Id": 626,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "Knowledge management"
+ },
+ {
+  "Id": 627,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "Operations research"
+ },
+ {
+  "Id": 628,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "Managing information"
+ },
+ {
+  "Id": 629,
+  "Address": "Row 14 Side A",
+  "Shelf": 227,
+  "Class": "658.4013 - 658.4038",
+  "Keyword": "Information systems"
+ },
+ {
+  "Id": 630,
+  "Address": "Row 14 Side A",
+  "Shelf": 228,
+  "Class": "658.4038 - 658.4063",
+  "Keyword": "Information system  "
+ },
+ {
+  "Id": 631,
+  "Address": "Row 14 Side A",
+  "Shelf": 228,
+  "Class": "658.4038 - 658.4063",
+  "Keyword": "Modern management"
+ },
+ {
+  "Id": 632,
+  "Address": "Row 14 Side A",
+  "Shelf": 228,
+  "Class": "658.4038 - 658.4063",
+  "Keyword": "Project management "
+ },
+ {
+  "Id": 633,
+  "Address": "Row 14 Side A",
+  "Shelf": 228,
+  "Class": "658.4038 - 658.4063",
+  "Keyword": "Innovation"
+ },
+ {
+  "Id": 634,
+  "Address": "Row 14 Side A",
+  "Shelf": 229,
+  "Class": "658.4063 - 658.409",
+  "Keyword": "Leadership "
+ },
+ {
+  "Id": 635,
+  "Address": "Row 14 Side A",
+  "Shelf": 229,
+  "Class": "658.4063 - 658.409",
+  "Keyword": "How to be a manager "
+ },
+ {
+  "Id": 636,
+  "Address": "Row 14 Side A",
+  "Shelf": 229,
+  "Class": "658.4063 - 658.409",
+  "Keyword": "Insight on leadership"
+ },
+ {
+  "Id": 637,
+  "Address": "Row 14 Side B",
+  "Shelf": 230,
+  "Class": "658.4092 - 658.5",
+  "Keyword": "Entrepreneurship "
+ },
+ {
+  "Id": 638,
+  "Address": "Row 14 Side B",
+  "Shelf": 230,
+  "Class": "658.4092 - 658.5",
+  "Keyword": "Management communications "
+ },
+ {
+  "Id": 639,
+  "Address": "Row 14 Side B",
+  "Shelf": 230,
+  "Class": "658.4092 - 658.5",
+  "Keyword": "Business communications"
+ },
+ {
+  "Id": 640,
+  "Address": "Row 14 Side B",
+  "Shelf": 230,
+  "Class": "658.4092 - 658.5",
+  "Keyword": "TED talk"
+ },
+ {
+  "Id": 641,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "Modern manufacturing "
+ },
+ {
+  "Id": 642,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "Operations and supply chain management "
+ },
+ {
+  "Id": 643,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "Operations management "
+ },
+ {
+  "Id": 644,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "HBR- Value chain "
+ },
+ {
+  "Id": 645,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "Statistical process control "
+ },
+ {
+  "Id": 646,
+  "Address": "Row 14 Side B",
+  "Shelf": 231,
+  "Class": "658.5-658.562",
+  "Keyword": "RFID security"
+ },
+ {
+  "Id": 647,
+  "Address": "Row 14 Side B",
+  "Shelf": 232,
+  "Class": "658.58 - 658.872",
+  "Keyword": "Chain management "
+ },
+ {
+  "Id": 648,
+  "Address": "Row 14 Side B",
+  "Shelf": 232,
+  "Class": "658.58 - 658.872",
+  "Keyword": "Marketing research "
+ },
+ {
+  "Id": 649,
+  "Address": "Row 14 Side B",
+  "Shelf": 232,
+  "Class": "658.58 - 658.872",
+  "Keyword": "Consumer behavior "
+ },
+ {
+  "Id": 650,
+  "Address": "Row 14 Side B",
+  "Shelf": 232,
+  "Class": "658.58 - 658.872",
+  "Keyword": "Social media "
+ },
+ {
+  "Id": 651,
+  "Address": "Row 14 Side B",
+  "Shelf": 232,
+  "Class": "658.58 - 658.872",
+  "Keyword": "Digital Marketing"
+ },
+ {
+  "Id": 652,
+  "Address": "Row 14 Side B",
+  "Shelf": 233,
+  "Class": "658.872 - 660.6",
+  "Keyword": "Consumer behavior "
+ },
+ {
+  "Id": 653,
+  "Address": "Row 14 Side B",
+  "Shelf": 233,
+  "Class": "658.872 - 660.6",
+  "Keyword": "Corporate brand "
+ },
+ {
+  "Id": 654,
+  "Address": "Row 14 Side B",
+  "Shelf": 233,
+  "Class": "658.872 - 660.6",
+  "Keyword": "Diffusion "
+ },
+ {
+  "Id": 655,
+  "Address": "Row 14 Side B",
+  "Shelf": 233,
+  "Class": "658.872 - 660.6",
+  "Keyword": "Heat transfer "
+ },
+ {
+  "Id": 656,
+  "Address": "Row 14 Side B",
+  "Shelf": 233,
+  "Class": "658.872 - 660.6",
+  "Keyword": "Biotechnology"
+ },
+ {
+  "Id": 657,
+  "Address": "Row 14 Side B",
+  "Shelf": 234,
+  "Class": "660.6  - 670.427",
+  "Keyword": "Biotechnology "
+ },
+ {
+  "Id": 658,
+  "Address": "Row 14 Side B",
+  "Shelf": 234,
+  "Class": "660.6  - 670.427",
+  "Keyword": "Physical metallurgy "
+ },
+ {
+  "Id": 659,
+  "Address": "Row 14 Side B",
+  "Shelf": 234,
+  "Class": "660.6  - 670.427",
+  "Keyword": "Manufacturing sciences "
+ },
+ {
+  "Id": 660,
+  "Address": "Row 14 Side B",
+  "Shelf": 234,
+  "Class": "660.6  - 670.427",
+  "Keyword": "Computer-integrated manufacturing"
+ },
+ {
+  "Id": 661,
+  "Address": "Row 14 Side B",
+  "Shelf": 235,
+  "Class": "671-745.095",
+  "Keyword": "Production technology "
+ },
+ {
+  "Id": 662,
+  "Address": "Row 14 Side B",
+  "Shelf": 235,
+  "Class": "671-745.095",
+  "Keyword": "Welding processes"
+ },
+ {
+  "Id": 663,
+  "Address": "Row 14 Side B",
+  "Shelf": 236,
+  "Class": "776.2028 -796.8309",
+  "Keyword": "Indian cinema "
+ },
+ {
+  "Id": 664,
+  "Address": "Row 14 Side B",
+  "Shelf": 236,
+  "Class": "776.2028 -796.8309",
+  "Keyword": "Films literature and culture "
+ },
+ {
+  "Id": 665,
+  "Address": "Row 14 Side B",
+  "Shelf": 236,
+  "Class": "776.2028 -796.8309",
+  "Keyword": "Sport- Cricket"
+ },
+ {
+  "Id": 666,
+  "Address": "Row 15 Side A",
+  "Shelf": 237,
+  "Class": "801 -  808.042",
+  "Keyword": "Cultural theory"
+ },
+ {
+  "Id": 667,
+  "Address": "Row 15 Side A",
+  "Shelf": 237,
+  "Class": "801 -  808.042",
+  "Keyword": "Technical writing "
+ },
+ {
+  "Id": 668,
+  "Address": "Row 15 Side A",
+  "Shelf": 237,
+  "Class": "801 -  808.042",
+  "Keyword": "Technical communication "
+ },
+ {
+  "Id": 669,
+  "Address": "Row 15 Side A",
+  "Shelf": 237,
+  "Class": "801 -  808.042",
+  "Keyword": "Effective writing"
+ },
+ {
+  "Id": 670,
+  "Address": "Row 15 Side A",
+  "Shelf": 237,
+  "Class": "801 -  808.042",
+  "Keyword": "Contemporary literary theory"
+ },
+ {
+  "Id": 671,
+  "Address": "Row 15 Side A",
+  "Shelf": 238,
+  "Class": "808.5 - 813.52",
+  "Keyword": "Elements of literature "
+ },
+ {
+  "Id": 672,
+  "Address": "Row 15 Side A",
+  "Shelf": 238,
+  "Class": "808.5 - 813.52",
+  "Keyword": "Guide to good writing and speech "
+ },
+ {
+  "Id": 673,
+  "Address": "Row 15 Side A",
+  "Shelf": 238,
+  "Class": "808.5 - 813.52",
+  "Keyword": "Novels"
+ },
+ {
+  "Id": 674,
+  "Address": "Row 15 Side A",
+  "Shelf": 239,
+  "Class": "815.52 -813.54",
+  "Keyword": "Novels"
+ },
+ {
+  "Id": 675,
+  "Address": "Row 15 Side A",
+  "Shelf": 239,
+  "Class": "815.52 -813.54",
+  "Keyword": "Fiction"
+ },
+ {
+  "Id": 676,
+  "Address": "Row 15 Side A",
+  "Shelf": 240,
+  "Class": 813.54,
+  "Keyword": "Novels -Life story (life of Pi Namesake Game of throne)"
+ },
+ {
+  "Id": 677,
+  "Address": "Row 15 Side A",
+  "Shelf": 241,
+  "Class": "823.54 - 820.01",
+  "Keyword": "Novels English literature"
+ },
+ {
+  "Id": 678,
+  "Address": "Row 15 Side A",
+  "Shelf": 242,
+  "Class": "820.809 - 823",
+  "Keyword": "English literature Early Indian poetry- English"
+ },
+ {
+  "Id": 679,
+  "Address": "Row 15 Side A",
+  "Shelf": 243,
+  "Class": 823,
+  "Keyword": "Novels English Literature "
+ },
+ {
+  "Id": 680,
+  "Address": "Row 15 Side B",
+  "Shelf": 244,
+  "Class": "823.012 - 823.8",
+  "Keyword": "Novels (E. M. Foster) English Literature- Drama Skits"
+ },
+ {
+  "Id": 681,
+  "Address": "Row 15 Side B",
+  "Shelf": 245,
+  "Class": "823.8 - 823.91",
+  "Keyword": "English literature- Drama Plots Novels"
+ },
+ {
+  "Id": 682,
+  "Address": "Row 15 Side B",
+  "Shelf": 246,
+  "Class": "823.912 - 823.914",
+  "Keyword": "Novels English Literature Fictions"
+ },
+ {
+  "Id": 683,
+  "Address": "Row 15 Side B",
+  "Shelf": 247,
+  "Class": "823.914 - 823.92",
+  "Keyword": "Fiction novels Author- Amrita Ghosh Salman Rushdie Harry Potter"
+ },
+ {
+  "Id": 684,
+  "Address": "Row 15 Side B",
+  "Shelf": 248,
+  "Class": "823.92 - 828.08",
+  "Keyword": "Fictions Novel Author-Ashwin Sanghi"
+ },
+ {
+  "Id": 685,
+  "Address": "Row 15 Side B",
+  "Shelf": 249,
+  "Class": "828.91209 - 891.433",
+  "Keyword": "Novel Fictions "
+ },
+ {
+  "Id": 686,
+  "Address": "Row 15 Side B",
+  "Shelf": 249,
+  "Class": "828.91209 - 891.433",
+  "Keyword": "Short stories "
+ },
+ {
+  "Id": 687,
+  "Address": "Row 15 Side B",
+  "Shelf": 250,
+  "Class": "891.433 - 899.22122",
+  "Keyword": "English literature"
+ },
+ {
+  "Id": 688,
+  "Address": "Row 15 Side B",
+  "Shelf": 250,
+  "Class": "891.433 - 899.22122",
+  "Keyword": "Short - Fictions"
+ },
+ {
+  "Id": 689,
+  "Address": "Row 16 Side A",
+  "Shelf": 251,
+  "Class": "900-947.0841",
+  "Keyword": "Collies- Empire "
+ },
+ {
+  "Id": 690,
+  "Address": "Row 16 Side A",
+  "Shelf": 251,
+  "Class": "900-947.0841",
+  "Keyword": "Remote sensing & GIS "
+ },
+ {
+  "Id": 691,
+  "Address": "Row 16 Side A",
+  "Shelf": 251,
+  "Class": "900-947.0841",
+  "Keyword": "Cultural pasts"
+ },
+ {
+  "Id": 692,
+  "Address": "Row 16 Side A",
+  "Shelf": 252,
+  "Class": "950.07-954.03",
+  "Keyword": "Social cultural-Economic history "
+ },
+ {
+  "Id": 693,
+  "Address": "Row 16 Side A",
+  "Shelf": 252,
+  "Class": "950.07-954.03",
+  "Keyword": "History of modern India "
+ },
+ {
+  "Id": 694,
+  "Address": "Row 16 Side A",
+  "Shelf": 252,
+  "Class": "950.07-954.03",
+  "Keyword": "Partition"
+ },
+ {
+  "Id": 695,
+  "Address": "Row 16 Side A",
+  "Shelf": 253,
+  "Class": "954.03-954.532",
+  "Keyword": "India struggles-Independence "
+ },
+ {
+  "Id": 696,
+  "Address": "Row 16 Side A",
+  "Shelf": 253,
+  "Class": "954.03-954.532",
+  "Keyword": "Himalaya-stories "
+ },
+ {
+  "Id": 697,
+  "Address": "Row 16 Side A",
+  "Shelf": 253,
+  "Class": "954.03-954.532",
+  "Keyword": "Stories of Places-India -Bombay, Pakistan, Singapore"
+ },
+ {
+  "Id": 698,
+  "Address": "Row 16 Side A",
+  "Shelf": 254,
+  "Class": "954.14-974.4",
+  "Keyword": "Hindi literature Fiction titles"
+ }
+]
