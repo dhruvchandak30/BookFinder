@@ -17,7 +17,7 @@ const App = () => {
         <img
           src={logo}
           alt="Logo"
-          style={{ width: "", height: "70px", marginRight: "auto" }}
+          style={{ width: "", height: "70px", marginRight: "30rem" }}
         />
         <h1 style={{ fontSize: "40px", marginBottom: "10px" }}>Book Finder</h1>
         <img
