@@ -44,7 +44,7 @@ const BookSearch = ({ data }) => {
         style={{
           padding: "10px",
           fontSize: "16px",
-          width: "100%",
+          width: "calc(100% - 5em)",
           marginBottom: "10px",
           borderRadius: "5px",
           border: "1px solid #ccc",
