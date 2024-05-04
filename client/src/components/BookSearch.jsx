@@ -3,7 +3,6 @@ import React, { useState } from "react";
 const BookSearch = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
-  const [showKeywords, setShowKeywords] = useState(true);
   const [bookNotFound, setBookNotFound] = useState(false);
 
   const filteredData = data.filter((item) =>
@@ -12,32 +11,31 @@ const BookSearch = ({ data }) => {
 
   const handleItemClick = (item) => {
     setSelectedItem(item);
-    setShowKeywords(false);
+    setSearchTerm("");
     setBookNotFound(false);
   };
 
   const clearSelection = () => {
     setSelectedItem(null);
-    setShowKeywords(true);
+    setSearchTerm("");
     setBookNotFound(false);
-  };
-
-  // Handle search
-  const handleSearch = () => {
-    if (filteredData.length === 0 && searchTerm.trim() !== "") {
-      setBookNotFound(true);
-    }
   };
 
   const onChangeHandler = (e) => {
-    e.preventDefault();
-    setSearchTerm(e.target.value);
-    setBookNotFound(false);
-    handleSearch();
+    const term = e.target.value.trim();
+    setSearchTerm(term);
+    setSelectedItem(null);
+
+    // Check if filteredData is empty
+    if (term !== "" && filteredData.length === 0) {
+      setBookNotFound(true);
+    } else {
+      setBookNotFound(false);
+    }
   };
 
   return (
-    <div style={{padding:"20px"}}>
+    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <input
         type="text"
         placeholder="Search..."
@@ -52,7 +50,7 @@ const BookSearch = ({ data }) => {
           border: "1px solid #ccc",
         }}
       />
-      {searchTerm && showKeywords && (
+      {searchTerm && (
         <ul style={{ listStyleType: "none", padding: 0 }}>
           {filteredData.map((item) => (
             <li
@@ -72,11 +70,11 @@ const BookSearch = ({ data }) => {
         </ul>
       )}
       {selectedItem && (
-        <div style={{ border: "2px solid black", padding: "10px" }}>
-          <p><strong>Shelf:</strong> {selectedItem.Shelf}</p>
-          <p><strong>Keyword:</strong> {selectedItem.Keyword}</p>
-          <p><strong>Class:</strong> {selectedItem.Class}</p>
-          <p><strong>Address:</strong> {selectedItem.Address}</p>
+        <div style={{ marginTop: "10px", padding: "10px" }}>
+          <p style={{ margin: 0 }}>
+            Go to Row {selectedItem.Address.match(/\d+/g)[0]}, Side{" "}
+            {selectedItem.Address.match(/[A-Z]/i)}, Shelf No. {selectedItem.Shelf}, Class No. {selectedItem.Class}
+          </p>
           <button
             style={{
               padding: "8px",
@@ -94,7 +92,7 @@ const BookSearch = ({ data }) => {
         </div>
       )}
       {bookNotFound && (
-        <p style={{ color: "red", marginTop: "10px" }}>Book Not Found</p>
+        <p style={{ color: "red", marginTop: "10px", fontStyle: "italic" }}>Book Not Found</p>
       )}
     </div>
   );
