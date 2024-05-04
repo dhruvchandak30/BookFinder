@@ -1,11 +1,12 @@
 import React from "react";
 import BookSearch from "./components/BookSearch";
 import logo from "./assets/logo.png";
+import "./App.css";
 import jsonData from "./assets/LibraryKeywords.json";
 
 const App = () => {
   return (
-    <div style={{ padding: "20px", textAlign: "center" }}>
+    <div className="app-div">
       <div
         style={{
           display: "flex",
