@@ -8,9 +8,10 @@ const App = () => {
   return (
     <div className="app-div">
       <div class="header">
-        <img src={logo} alt="Logo" />
-        <h1>Book Finder</h1>
+        <img src={logo} alt="Logo" className="Logo" />
+        <h1>Central Libary</h1>
       </div>
+      <h2 className="Locate">LOCATE YOUR BOOKS</h2>
 
       <div>
         <div>

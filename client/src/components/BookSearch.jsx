@@ -38,7 +38,7 @@ const BookSearch = ({ data }) => {
     <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
       <input
         type="text"
-        placeholder="Search..."
+        placeholder="Enter your Keyword/Subject"
         value={searchTerm}
         onChange={onChangeHandler}
         style={{
@@ -50,28 +50,15 @@ const BookSearch = ({ data }) => {
           border: "1px solid #ccc",
         }}
       />
-      {searchTerm ? (
+      {searchTerm && (
         <ul className="home-card" style={{ listStyleType: "none", padding: 0 }}>
           {filteredData.map((item) => (
             <li key={item.Id} onClick={() => handleItemClick(item)}>
               {item.Keyword}
             </li>
           ))}
-        </ul>
-      ) : (
-        !selectedItem && (
-          <ul
-            className="home-card"
-            style={{ listStyleType: "none", padding: 0 }}
-          >
-            {data.slice(0, 20).map((item) => (
-              <li onClick={() => handleItemClick(item)} key={item.id}>
-                {item.Keyword}
-              </li>
-            ))}
-          </ul>
-        )
-      )}
+        </ul>)
+      }
 
       {selectedItem && (
         <div className="search-card">
