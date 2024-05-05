@@ -39,11 +39,12 @@
   justify-content: space-between;
   align-items: center;
   padding: 0rem 2rem 0rem 1rem;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
   & > h1 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-size: clamp(
-      2rem,
+      3rem,
       1.7426470588235294rem + 0.7352941176470588vw,
       2.625rem
     );

@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const BookSearch = ({ data }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
   const [bookNotFound, setBookNotFound] = useState(false);
 
-  const filteredData = data.filter((item) =>
-    item.Keyword.toLowerCase().includes(searchTerm.toLowerCase())
-  );
 
+    const filteredData = data.filter((item) =>
+      item.Keyword.toLowerCase().includes(searchTerm.toLowerCase())
+    );
+ 
   const handleItemClick = (item) => {
     setSelectedItem(item);
     setSearchTerm("");
@@ -26,8 +27,7 @@ const BookSearch = ({ data }) => {
     setSearchTerm(term);
     setSelectedItem(null);
 
-    // Check if filteredData is empty
-    if (term !== "" && filteredData.length === 0) {
+    if (filteredData.length === 0) {
       setBookNotFound(true);
     } else {
       setBookNotFound(false);
@@ -80,9 +80,8 @@ const BookSearch = ({ data }) => {
               {selectedItem.Keyword}
             </h3>
             <p style={{ margin: 0 }}>
-              Go to Row {selectedItem.Address.match(/\d+/g)[0]}, Side{" "}
-              {selectedItem.Address.match(/[A-Z]/i)}, Shelf No.{" "}
-              {selectedItem.Shelf}, Class No. {selectedItem.Class}
+              Go to {selectedItem.Address}, Shelf No. {selectedItem.Shelf},
+              Class No. {selectedItem.Class}
             </p>
             <button
               style={{
