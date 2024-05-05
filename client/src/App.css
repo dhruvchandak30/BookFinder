@@ -28,6 +28,58 @@
   color: #61dafb;
 }
 
+.app-div {
+  padding: "20px";
+  text-align: "center";
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0rem 2rem 0rem 1rem;
+
+  & > h1 {
+    font-size: 2rem;
+    font-size: clamp(
+      2rem,
+      1.7426470588235294rem + 0.7352941176470588vw,
+      2.625rem
+    );
+    margin: 0px;
+  }
+}
+
+.search-card {
+  max-width: 600px;
+  margin-top: 1rem;
+  box-shadow: 2px 4px 12px rgb(0 0 0 / 20%);
+  background: #f7fbff;
+  border-radius: 8px;
+  padding: 0.75rem 1rem;
+}
+
+.home-card {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  & > * {
+    box-shadow: 2px 4px 12px rgb(0 0 0 / 20%);
+    background: #f7fbff;
+    border-radius: 8px;
+    padding: 0.75rem 1rem;
+    cursor: pointer;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header h1 {
+    display: none;
+  }
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
