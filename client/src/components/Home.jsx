@@ -10,7 +10,7 @@ const Home = () => {
 
   const fetchCounterValue = async () => {
     try {
-      const response = await fetch("http://localhost:3000/get-counter", {
+      const response = await fetch("https://bookfinder-1.onrender.com/get-counter", {
         method: "GET",
         headers: {
           "Content-Type": "application/json",
@@ -48,9 +48,9 @@ const Home = () => {
 
       <div>
         <div>
-          <BookSearch data={jsonData} onClick={fetchCounterValue}/>
+          <BookSearch data={jsonData} onClick={fetchCounterValue} />
         </div>
-        {counterValue && (
+        {counterValue > 0 && (
           <div>
             <h3 className="counterLabel">
               This book finder has been used {counterValue} times.

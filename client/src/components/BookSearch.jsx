@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 const updateCounter = async () => {
   try {
-    const response = await fetch("http://localhost:3000/update-counter", {
+    const response = await fetch("https://bookfinder-1.onrender.com/update-counter", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
