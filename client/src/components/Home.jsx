@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import BookSearch from "./BookSearch";
 import { Link } from "react-router-dom";
 import jsonData from "../assets/LibraryKeywords.json";
@@ -6,13 +6,41 @@ import logo from "../assets/logo.png";
 import "../App.css";
 
 const Home = () => {
+  const [counterValue, setCounterValue] = useState(0);
+
+  const fetchCounterValue = async () => {
+    try {
+      const response = await fetch("http://localhost:3000/get-counter", {
+        method: "GET",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      setCounterValue(data.value);
+    } catch (error) {
+      console.error("Error:", error);
+    }
+  };
+
+  useEffect(() => {
+    fetchCounterValue();
+  }, []); // Empty dependency array means this effect runs once when the component mounts
+
   return (
     <div className="">
       <div className="header">
         <Link to={"https://lnmiit.ac.in/library/"}>
           <img src={logo} alt="Logo" className="Logo" />
         </Link>
-        <h1 className="centralLibrary">Central Libary</h1>
+      </div>
+      <div>
+        <h1 className="centralLibrary">Central Library</h1>
       </div>
       <div>
         <h2 className="Locate">LOCATE YOUR BOOKS</h2>
@@ -20,9 +48,15 @@ const Home = () => {
 
       <div>
         <div>
-          <BookSearch data={jsonData} />
+          <BookSearch data={jsonData} onClick={fetchCounterValue}/>
         </div>
-        {/* Add other content here */}
+        {counterValue && (
+          <div>
+            <h3 className="counterLabel">
+              This book finder has been used {counterValue} times.
+            </h3>
+          </div>
+        )}
       </div>
     </div>
   );

@@ -1,19 +1,39 @@
 import React, { useEffect, useState } from "react";
+const updateCounter = async () => {
+  try {
+    const response = await fetch("http://localhost:3000/update-counter", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
 
-const BookSearch = ({ data }) => {
+    if (!response.ok) {
+      throw new Error(`HTTP error! Status: ${response.status}`);
+    }
+
+    const data = await response.json();
+    console.log("Response:", data);
+  } catch (error) {
+    console.error("Error:", error);
+  }
+};
+
+const BookSearch = ({ data, onClick }) => {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedItem, setSelectedItem] = useState(null);
   const [bookNotFound, setBookNotFound] = useState(false);
 
+  const filteredData = data.filter((item) =>
+    item.Keyword.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
-    const filteredData = data.filter((item) =>
-      item.Keyword.toLowerCase().includes(searchTerm.toLowerCase())
-    );
- 
   const handleItemClick = (item) => {
     setSelectedItem(item);
     setSearchTerm("");
     setBookNotFound(false);
+    updateCounter();
+    onClick();
   };
 
   const clearSelection = () => {
@@ -44,10 +64,10 @@ const BookSearch = ({ data }) => {
         style={{
           padding: "10px",
           fontSize: "16px",
-          width: "calc(100% - 5em)",
+          width: "calc(40%)",
           marginBottom: "10px",
           borderRadius: "5px",
-          border: "1px solid #ccc",
+          border: "2px solid black",
         }}
       />
       {searchTerm && (
@@ -57,8 +77,8 @@ const BookSearch = ({ data }) => {
               {item.Keyword}
             </li>
           ))}
-        </ul>)
-      }
+        </ul>
+      )}
 
       {selectedItem && (
         <div className="search-card">

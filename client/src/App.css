@@ -12,14 +12,18 @@
   display: flex;
   letter-spacing: 2px;
   justify-content: center;
-  padding: 2rem 0rem 0rem 0rem;
 }
 
 .centralLibrary {
-  font-size: 2rem;
-
+  font-size: 4rem;
+  text-align: center;
   margin: 0px;
 }
+
+.counterLabel {
+  margin: 2rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
