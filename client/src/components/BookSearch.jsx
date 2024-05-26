@@ -1,12 +1,16 @@
 import React, { useEffect, useState } from "react";
+import "../App.css";
 const updateCounter = async () => {
   try {
-    const response = await fetch("https://bookfinder-1.onrender.com/update-counter", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-    });
+    const response = await fetch(
+      "https://bookfinder-1.onrender.com/update-counter",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
 
     if (!response.ok) {
       throw new Error(`HTTP error! Status: ${response.status}`);
@@ -55,7 +59,10 @@ const BookSearch = ({ data, onClick }) => {
   };
 
   return (
-    <div style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}>
+    <div
+      className="BookSearchDiv"
+      style={{ padding: "20px", fontFamily: "Arial, sans-serif" }}
+    >
       <input
         type="text"
         placeholder="Enter your Keyword/Subject"
@@ -64,7 +71,8 @@ const BookSearch = ({ data, onClick }) => {
         style={{
           padding: "10px",
           fontSize: "16px",
-          width: "calc(40%)",
+          width: "30rem",
+          // position:"fixed",
           marginBottom: "10px",
           borderRadius: "5px",
           border: "2px solid black",

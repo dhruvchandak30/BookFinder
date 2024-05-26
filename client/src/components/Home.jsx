@@ -46,7 +46,7 @@ const Home = () => {
         <h2 className="Locate">LOCATE YOUR BOOKS</h2>
       </div>
 
-      <div>
+      <div className="BookResultDiv">
         <div>
           <BookSearch data={jsonData} onClick={fetchCounterValue} />
         </div>
