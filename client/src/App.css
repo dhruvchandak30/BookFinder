@@ -29,15 +29,23 @@
 }
 
 .BookSearchDiv {
-
-  display:flex;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   justify-items: center;
   justify-self: center;
   align-items: center;
-  
 }
+
+.IdDiv {
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  
+  justify-content: space-between; /* Use justify-content instead of justify-items */
+}
+
+
 
 .BookResultDiv {
   display: flex;

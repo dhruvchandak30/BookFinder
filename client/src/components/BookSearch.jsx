@@ -91,9 +91,10 @@ const BookSearch = ({ data, onClick }) => {
       {selectedItem && (
         <div className="search-card">
           <div>
-            <h3 style={{ margin: 0, paddingBlock: ".25rem 1rem" }}>
-              {selectedItem.Keyword}
-            </h3>
+            <div className="flex flex-row justify-between align-middle my-2">
+              <h2 className="text-xl font-bold ">{selectedItem.Keyword}</h2>
+              <h5>Id: {selectedItem.Id}</h5>
+            </div>
             <p style={{ margin: 0 }}>
               Go to {selectedItem.Address}, Shelf No. {selectedItem.Shelf},
               Class No. {selectedItem.Class}

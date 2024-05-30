@@ -5,17 +5,20 @@ import jsonData from "../assets/LibraryKeywords.json";
 import logo from "../assets/logo.png";
 import "../App.css";
 
-const Home = () => {
+const Home = ({books}) => {
   const [counterValue, setCounterValue] = useState(0);
 
   const fetchCounterValue = async () => {
     try {
-      const response = await fetch("https://bookfinder-1.onrender.com/get-counter", {
-        method: "GET",
-        headers: {
-          "Content-Type": "application/json",
-        },
-      });
+      const response = await fetch(
+        "https://bookfinder-1.onrender.com/get-counter",
+        {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      );
 
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
@@ -48,11 +51,11 @@ const Home = () => {
 
       <div className="BookResultDiv">
         <div>
-          <BookSearch data={jsonData} onClick={fetchCounterValue} />
+          <BookSearch data={books} onClick={fetchCounterValue} />
         </div>
         {counterValue > 0 && (
           <div>
-            <h3 className="counterLabel">
+            <h3 className="m-4 font-bold text-xl">
               This book finder has been used {counterValue} times.
             </h3>
           </div>

@@ -39,7 +39,7 @@ router.get('/get-counter', async (req, res) => {
       res.status(404).json({ message: 'Counter not found' });
     }
   } catch (error) {
-    console.error('Error occurred:', error); // Log the error
+    console.error('Error occurred:', error);
     res.status(500).json({ message: 'An error occurred', error: error.message });
   }
 });
