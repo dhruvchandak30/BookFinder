@@ -27,7 +27,7 @@ const DeleteBookForm = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:3000/deletebook", {
+      const response = await axios.post("https://bookfinder-1.onrender.com/deletebook", {
         data: { bookId, secretKey }
       });
       setMessage(response.data.message);

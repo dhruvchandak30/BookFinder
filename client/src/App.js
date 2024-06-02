@@ -14,7 +14,7 @@ const App = () => {
   useEffect(() => {
     const fetchBooks = async () => {
       try {
-        const response = await axios.get("http://localhost:3000/fetch_books");
+        const response = await axios.get("https://bookfinder-1.onrender.com/fetch_books");
         setBooks(response.data);
         console.log("Fetch Books");
         

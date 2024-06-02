@@ -9,7 +9,7 @@ const [key, setKey] = useState('');
 useEffect(() => {
       const fetchData = async () => {
         try {
-          const response = await fetch("http://localhost:3000/notifications", {
+          const response = await fetch("https://bookfinder-1.onrender.com/notifications", {
             method: "POST"
           });
           if (response.ok) {
