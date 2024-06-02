@@ -8,15 +8,13 @@ router.get('/fetch_books', async (req, res) => {
     const db = await connectToDatabase();
     const collection = db.collection('BookData');
 
-    const bookDataDoc = await collection.findOne({});
+    const bookDataDocs = await collection.find({}).toArray();
 
-    if (!bookDataDoc) {
-      return res.status(404).json({ error: 'BookData document not found' });
+    if (!bookDataDocs) {
+      return res.status(404).json({ error: 'BookData documents not found' });
     }
 
-    const data = bookDataDoc.Data || [];
-
-    res.status(200).json(data);
+    res.status(200).json(bookDataDocs);
   } catch (err) {
     console.error('Error fetching books:', err);
     res.status(500).json({ error: 'Failed to fetch books' });

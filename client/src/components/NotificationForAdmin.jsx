@@ -7,7 +7,7 @@ function NotificationForAdmin(props) {
     try {
         console.log("notification deleted " + props._id);
 
-        const response = await fetch("http://localhost:3000/deletenotification", {
+        const response = await fetch("https://bookfinder-1.onrender.com/deletenotification", {
             method: "POST",
             headers: {
                 'Content-Type': 'application/json'
