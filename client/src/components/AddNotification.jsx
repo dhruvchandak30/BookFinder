@@ -116,7 +116,7 @@ useEffect(() => {
     const handleSubmit = async (event) => {
         event.preventDefault();
         try {
-            const response = await fetch("http://localhost:3000/addnotifications", {
+            const response = await fetch("https://bookfinder-1.onrender.com/addnotifications", {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json"
