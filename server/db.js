@@ -10,10 +10,8 @@ const connectToDatabase = async () => {
   if (db) {
     return db;
   }
-
   try {
     const client = new MongoClient(uri);
-
     await client.connect();
     console.log("Connected to MongoDB");
     db = client.db(dbName);

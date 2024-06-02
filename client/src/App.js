@@ -4,6 +4,8 @@ import Home from "./components/Home";
 import axios from "axios";
 import AddBookForm from "./components/AddBook";
 import DeleteBookForm from "./components/DeleteBook";
+import AddNotification from "./components/AddNotification";
+import AllNotifications from "./components/AllNotifications";
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -29,6 +31,8 @@ const App = () => {
           <Route path="/" element={<Home books={books} />} />
           <Route path="add_library_book" element={<AddBookForm />} />
           <Route path="delete_library_book" element={<DeleteBookForm />} />
+          <Route path="add_notification" element={<AddNotification />} />
+          <Route path="show_notification" element={<AllNotifications />} />
         </Routes>
       </Router>
     </div>
