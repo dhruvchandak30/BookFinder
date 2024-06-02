@@ -26,15 +26,28 @@ const updateCounter = async () => {
 
 const BookSearch = ({ data, onClick }) => {
   const [searchTerm, setSearchTerm] = useState("");
-  const [selectedItem, setSelectedItem] = useState(null);
+  const [selectedKeyword, setSelectedKeyword] = useState(null);
   const [bookNotFound, setBookNotFound] = useState(false);
 
-  const filteredData = data.filter((item) =>
-    item.Keyword.toLowerCase().includes(searchTerm.toLowerCase())
+  // Group data by keywords
+  const groupedData = data.reduce((acc, item) => {
+    if (item.Keyword) {
+      const keyword = item.Keyword.toLowerCase();
+      if (!acc[keyword]) {
+        acc[keyword] = [];
+      }
+      acc[keyword].push(item);
+    }
+    return acc;
+  }, {});
+
+  // Filter the grouped keywords by the search term
+  const filteredKeywords = Object.keys(groupedData).filter((keyword) =>
+    keyword.includes(searchTerm.toLowerCase())
   );
 
-  const handleItemClick = (item) => {
-    setSelectedItem(item);
+  const handleKeywordClick = (keyword) => {
+    setSelectedKeyword(keyword);
     setSearchTerm("");
     setBookNotFound(false);
     updateCounter();
@@ -42,17 +55,17 @@ const BookSearch = ({ data, onClick }) => {
   };
 
   const clearSelection = () => {
-    setSelectedItem(null);
+    setSelectedKeyword(null);
     setSearchTerm("");
     setBookNotFound(false);
   };
 
   const onChangeHandler = (e) => {
-    const term = e.target.value;  // Removed trimming
+    const term = e.target.value.toLowerCase();
     setSearchTerm(term);
-    setSelectedItem(null);
+    setSelectedKeyword(null);
 
-    if (filteredData.length === 0) {
+    if (filteredKeywords.length === 0) {
       setBookNotFound(true);
     } else {
       setBookNotFound(false);
@@ -80,25 +93,29 @@ const BookSearch = ({ data, onClick }) => {
       />
       {searchTerm && (
         <ul className="home-card" style={{ listStyleType: "none", padding: 0 }}>
-          {filteredData.map((item) => (
-            <li key={item.Id} onClick={() => handleItemClick(item)}>
-              {item.Keyword}
+          {filteredKeywords.map((keyword) => (
+            <li key={keyword} onClick={() => handleKeywordClick(keyword)}>
+              {keyword}
             </li>
           ))}
         </ul>
       )}
 
-      {selectedItem && (
+      {selectedKeyword && (
         <div className="search-card">
           <div>
             <div className="flex flex-row justify-between align-middle my-2">
-              <h2 className="text-xl font-bold ">{selectedItem.Keyword}</h2>
-              <h5>Id: {selectedItem.Id}</h5>
+              <h2 className="text-xl font-bold ">{selectedKeyword}</h2>
             </div>
-            <p style={{ margin: 0 }}>
-              Go to {selectedItem.Address}, Shelf No. {selectedItem.Shelf},
-              Class No. {selectedItem.Class}
-            </p>
+            {groupedData[selectedKeyword].map((item) => (
+              <div key={item._id} style={{ marginBottom: "10px" }}>
+                <h5>SrNo: {item.SrNo}</h5>
+                <p style={{ margin: 0 }}>
+                  Go to {item.BayGuide}, Shelf No. {item.Shelf}, Class No.{" "}
+                  {item.Class}
+                </p>
+              </div>
+            ))}
             <button
               style={{
                 padding: "8px",
