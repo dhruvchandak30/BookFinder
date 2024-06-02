@@ -39,6 +39,9 @@ const Home = ({ books }) => {
   const AdminPageHandler = () => {
     navigate("/adminPage");
   };
+  const NotifPageHandler = () => {
+    navigate("/show_notification");
+  };
 
   return (
     <div className="">
@@ -54,6 +57,12 @@ const Home = ({ books }) => {
             className="cursor-pointer bg-blue-700 text-center align-middle p-3  rounded-lg text-xl text-white"
           >
             Admin
+          </div>
+          <div
+            onClick={NotifPageHandler}
+            className="cursor-pointer bg-blue-700 text-center align-middle p-3  rounded-lg text-xl text-white"
+          >
+            Recent Updates
           </div>
         </div>
         <div className=" text-center m-2 gap-5 flex flex-col">
