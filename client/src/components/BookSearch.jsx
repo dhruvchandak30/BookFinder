@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "../App.css";
+
 const updateCounter = async () => {
   try {
     const response = await fetch(
@@ -47,7 +48,7 @@ const BookSearch = ({ data, onClick }) => {
   };
 
   const onChangeHandler = (e) => {
-    const term = e.target.value.trim();
+    const term = e.target.value;  // Removed trimming
     setSearchTerm(term);
     setSelectedItem(null);
 
@@ -72,7 +73,6 @@ const BookSearch = ({ data, onClick }) => {
           padding: "10px",
           fontSize: "16px",
           width: "30rem",
-          // position:"fixed",
           marginBottom: "10px",
           borderRadius: "5px",
           border: "2px solid black",

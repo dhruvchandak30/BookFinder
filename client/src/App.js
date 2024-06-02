@@ -6,6 +6,7 @@ import AddBookForm from "./components/AddBook";
 import DeleteBookForm from "./components/DeleteBook";
 import AddNotification from "./components/AddNotification";
 import AllNotifications from "./components/AllNotifications";
+import AdminPage from "./components/AdminPage";
 
 const App = () => {
   const [books, setBooks] = useState([]);
@@ -33,6 +34,7 @@ const App = () => {
           <Route path="delete_library_book" element={<DeleteBookForm />} />
           <Route path="add_notification" element={<AddNotification />} />
           <Route path="show_notification" element={<AllNotifications />} />
+          <Route path="adminPage" element={<AdminPage />} />
         </Routes>
       </Router>
     </div>
