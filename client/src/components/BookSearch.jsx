@@ -105,12 +105,12 @@ const BookSearch = ({ data, onClick }) => {
         <div className="search-card">
           <div>
             <div className="flex flex-row justify-between align-middle my-2">
-              <h2 className="text-xl font-bold ">{selectedKeyword}</h2>
+              <h2 className="text-2xl font-bold ">{selectedKeyword}</h2>
             </div>
             {groupedData[selectedKeyword].map((item) => (
               <div key={item._id} style={{ marginBottom: "10px" }}>
-                <h5>SrNo: {item.SrNo}</h5>
-                <p style={{ margin: 0 }}>
+                <h5>Id: {item.SrNo}</h5>
+                <p className="text-[15px]" style={{ margin: 0 }}>
                   Go to {item.BayGuide}, Shelf No. {item.Shelf}, Class No.{" "}
                   {item.Class}
                 </p>

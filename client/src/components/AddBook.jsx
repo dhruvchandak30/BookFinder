@@ -44,7 +44,7 @@ const AddBookForm = () => {
         secretKey: "",
       });
     } catch (error) {
-      setMessage("Failed to add book");
+      setMessage("Failed to add book", error);
       console.error("Error adding book:", error);
     }
   };
@@ -55,7 +55,7 @@ const AddBookForm = () => {
         <h2 className="text-2xl font-semibold mb-4 text-center">Add Book</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="text-gray-700 border-b">Address:</label>
+            <label className="text-gray-700 border-b">Bay Guide:</label>
             <input
               type="text"
               name="Address"
@@ -66,7 +66,7 @@ const AddBookForm = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="text-gray-700">Shelf:</label>
+            <label className="text-gray-700">Shelf No:</label>
             <input
               type="text"
               name="Shelf"
@@ -77,7 +77,7 @@ const AddBookForm = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="text-gray-700 border-b">Class:</label>
+            <label className="text-gray-700 border-b">Class No:</label>
             <input
               type="text"
               name="Class"
@@ -88,7 +88,7 @@ const AddBookForm = () => {
             />
           </div>
           <div className="mb-4">
-            <label className="text-gray-700 border-b">Keyword:</label>
+            <label className="text-gray-700 border-b">Subject/Keyword:</label>
             <input
               type="text"
               name="Keyword"

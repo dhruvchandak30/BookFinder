@@ -33,6 +33,14 @@ const Dashboard = () => {
               Add Notification
             </Link>
           </div>
+          <div className="text-center">
+            <Link
+              to="/"
+              className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
+            >
+              Go Back to Home
+            </Link>
+          </div>
         </div>
       </div>
     </div>
@@ -48,13 +56,16 @@ const AdminPage = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const response = await fetch("https://bookfinder-1.onrender.com/loginuser", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ username, password }),
-    });
+    const response = await fetch(
+      "https://bookfinder-1.onrender.com/loginuser",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ username, password }),
+      }
+    );
 
     if (response.status === 200) {
       const data = await response.json();

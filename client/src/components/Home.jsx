@@ -52,17 +52,19 @@ const Home = ({ books }) => {
               <img src={logo} alt="Logo" className="Logo" />
             </Link>
           </div>
-          <div
-            onClick={AdminPageHandler}
-            className="cursor-pointer bg-blue-700 text-center align-middle p-3  rounded-lg text-xl text-white"
-          >
-            Admin
-          </div>
-          <div
-            onClick={NotifPageHandler}
-            className="cursor-pointer bg-blue-700 text-center align-middle p-3  rounded-lg text-xl text-white"
-          >
-            Recent Updates
+          <div className="flex flex-row gap-4">
+            <div
+              onClick={NotifPageHandler}
+              className="cursor-pointer bg-blue-700 text-center align-middle border-2 border-black p-3   rounded-lg text-l text-white"
+            >
+              Recent Updates
+            </div>
+            <div
+              onClick={AdminPageHandler}
+              className="cursor-pointer bg-blue-700 text-center align-middle border-2 border-black p-3   rounded-lg text-l text-white"
+            >
+              Admin
+            </div>
           </div>
         </div>
         <div className=" text-center m-2 gap-5 flex flex-col">
