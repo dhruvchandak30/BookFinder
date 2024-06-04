@@ -22,24 +22,26 @@ router.post("/addbooklibrary", async (req, res) => {
     const db = await connectToDatabase();
     const collection = db.collection("BookData");
 
-    const bookDataDoc = await collection.findOne({});
+    const lastBook = await collection
+      .find()
+      .sort({ SrNo: -1 })
+      .limit(1)
+      .toArray();
+    const newSrNo = lastBook.length > 0 ? lastBook[0].SrNo + 1 : 1;
 
-    if (!bookDataDoc) {
-      return res.status(404).json({ error: "BookData document not found" });
-    }
+    const newBook = {
+      SrNo: newSrNo,
+      BayGuide: Address,
+      Shelf,
+      Class,
+      Keyword,
+    };
 
-    const lastBook = bookDataDoc.Data.slice().sort((a, b) => b.Id - a.Id)[0];
-    const newId = lastBook ? lastBook.Id + 1 : 1;
-    const newBook = { Id: newId, Address, Shelf, Class, Keyword };
-
-    await collection.updateOne(
-      { _id: bookDataDoc._id },
-      { $push: { Data: newBook } }
-    );
+    await collection.insertOne(newBook);
 
     res
       .status(201)
-      .json({ message: "Book added successfully", book_id: newId });
+      .json({ message: "Book added successfully", sr_no: newSrNo });
   } catch (err) {
     console.error("Error adding book:", err);
     res.status(500).json({ error: "Failed to add book" });
