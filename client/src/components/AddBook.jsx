@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const AddBookForm = () => {
   const [formData, setFormData] = useState({
@@ -118,6 +119,14 @@ const AddBookForm = () => {
         </form>
         {error && <p className="mt-2 text-red-500">{error}</p>}
         {message && <p className="mt-4 text-center">{message}</p>}
+      </div>
+      <div className="text-center">
+        <Link
+          to="/"
+          className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
+        >
+          Go Back to Home
+        </Link>
       </div>
     </div>
   );

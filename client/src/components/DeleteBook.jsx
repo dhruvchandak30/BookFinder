@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import axios from "axios";
+import { Link } from "react-router-dom";
 
 const DeleteBookForm = () => {
   const [bookId, setBookId] = useState("");
@@ -27,9 +28,12 @@ const DeleteBookForm = () => {
       return;
     }
     try {
-      const response = await axios.post("https://bookfinder-1.onrender.com/deletebook", {
-        data: { bookId, secretKey }
-      });
+      const response = await axios.post(
+        "https://bookfinder-1.onrender.com/deletebook",
+        {
+          data: { bookId, secretKey },
+        }
+      );
       setMessage(response.data.message);
       setBookId("");
       setSecretKey("");
@@ -75,6 +79,14 @@ const DeleteBookForm = () => {
       </form>
       {error && <p className="mt-2 text-red-500">{error}</p>}
       {message && <p className="mt-2 text-green-500">{message}</p>}
+      <div className="text-center">
+        <Link
+          to="/"
+          className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
+        >
+          Go Back to Home
+        </Link>
+      </div>
     </div>
   );
 };
