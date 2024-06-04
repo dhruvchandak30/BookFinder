@@ -4,49 +4,29 @@ require("dotenv").config();
 
 const router = express.Router();
 
-// Your secret key, replace with your actual key
-const secretKey = process.env.SECRET_KEY;
+// Define your secret key here
+const SECRET_KEY = process.env.SECRET_KEY;
 
 router.post("/deletebook", async (req, res) => {
-  console.log(req.body.data);
+  const { bookId, secretKey } = req.body;
 
-  const bookId = req.body.data.bookId;
-  const secretKeyInput = req.body.data.secretKey;
-  if (!bookId || !secretKeyInput) {
-    return res.status(400).json({ error: "Missing book ID or secret key" });
+  if (secretKey !== SECRET_KEY) {
+    return res.status(401).json({ error: "Unauthorized" });
   }
 
-  if (secretKeyInput !== secretKey) {
-    return res.status(403).json({ error: "Invalid secret key" });
-  }
-
-  const parsedBookId = parseInt(bookId, 10);
-  if (isNaN(parsedBookId)) {
-    return res.status(400).json({ error: "Invalid book ID" });
+  if (!bookId) {
+    return res.status(400).json({ error: "Missing required field: bookId" });
   }
 
   try {
     const db = await connectToDatabase();
     const collection = db.collection("BookData");
 
-    const bookDataDoc = await collection.findOne({});
+    const result = await collection.deleteOne({ SrNo: bookId });
 
-    if (!bookDataDoc) {
-      return res.status(404).json({ error: "BookData document not found" });
-    }
-
-    const bookExists = bookDataDoc.Data.some(
-      (book) => book.Id === parsedBookId
-    );
-
-    if (!bookExists) {
+    if (result.deletedCount === 0) {
       return res.status(404).json({ error: "Book not found" });
     }
-
-    await collection.updateOne(
-      { _id: bookDataDoc._id },
-      { $pull: { Data: { Id: parsedBookId } } }
-    );
 
     res.status(200).json({ message: "Book deleted successfully" });
   } catch (err) {
