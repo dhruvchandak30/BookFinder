@@ -40,13 +40,13 @@ You are now ready to contribute!
 ### How to Add Books
 
 1. **Set Up a MongoDB Account**
-   - If you don't have a MongoDB account, create one.
+   - If you don't have a MongoDB account, create one. Download MongoDB Atlas to your PC and connect with the Database URL.
 
 2. **Access the Database**
-   - Go to our database using the link provided by the team.
+   - Go to our database using the link provided by the team. in the Database Section, go to BookData dropwdown. First delete all the Docments in it from the Delete Option. 
 
 3. **Convert Excel Sheet to JSON**
-   - Use [ConvertSimple](https://www.convertsimple.com/convert-xlsx-to-json/) to convert your Excel sheet to JSON format.
+   - Use [ConvertSimple](https://www.convertsimple.com/convert-xlsx-to-json/) to convert your Excel sheet to JSON format. And always use the given Excel Fomat only.
 
 4. **Import JSON Data**
    - In the database, use the import data option, select JSON format, and add the recently converted JSON file. The database will be updated accordingly.
