@@ -46,7 +46,7 @@ const DeleteBookForm = () => {
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
-      <h2 className="text-2xl font-semibold mb-4 text-center">Delete Book</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-center">Delete Subject/Keyword</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700">Book ID:</label>
