@@ -52,17 +52,17 @@ const AddBookForm = () => {
 
   return (
     <div className="flex justify-center items-center h-screen">
-      <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
+      <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-md ">
         <h2 className="text-2xl font-semibold mb-4 text-center">Add Book</h2>
         <form onSubmit={handleSubmit}>
           <div className="mb-4">
-            <label className="text-gray-700 border-b">Bay Guide:</label>
+            <label className="text-gray-700 border-b">Row No:</label>
             <input
               type="text"
               name="Address"
               value={formData.Address}
               onChange={handleChange}
-              className="mt-1 w-full rounded-md border-gray-700 border-2 p-2 border-2"
+              className="mt-1 w-full rounded-md border-gray-700 p-2 border-2"
               required
             />
           </div>
@@ -73,7 +73,7 @@ const AddBookForm = () => {
               name="Shelf"
               value={formData.Shelf}
               onChange={handleChange}
-              className="w-full rounded-md border-gray-700 border-2 p-2 border-2"
+              className="w-full rounded-md border-gray-700 p-2 border-2"
               required
             />
           </div>
@@ -84,7 +84,7 @@ const AddBookForm = () => {
               name="Class"
               value={formData.Class}
               onChange={handleChange}
-              className="mt-1 w-full rounded-md border-gray-700 border-2 p-2 border-2"
+              className="mt-1 w-full rounded-md border-gray-700  p-2 border-2"
               required
             />
           </div>
@@ -95,7 +95,7 @@ const AddBookForm = () => {
               name="Keyword"
               value={formData.Keyword}
               onChange={handleChange}
-              className="mt-1 w-full rounded-md border-gray-700 border-2 p-2 border-2"
+              className="mt-1 w-full rounded-md border-gray-700  p-2 border-2"
               required
             />
           </div>
@@ -106,7 +106,7 @@ const AddBookForm = () => {
               name="secretKey"
               value={formData.secretKey}
               onChange={handleChange}
-              className="mt-1 w-full rounded-md border-gray-700 border-2 p-2 border-2"
+              className="mt-1 w-full rounded-md border-gray-700  p-2 border-2"
               required
             />
           </div>
@@ -114,18 +114,24 @@ const AddBookForm = () => {
             type="submit"
             className="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600 mx-auto"
           >
-            Add Book
+            Add Subject/Keyword
           </button>
         </form>
         {error && <p className="mt-2 text-red-500">{error}</p>}
         {message && <p className="mt-4 text-center">{message}</p>}
       </div>
-      <div className="text-center">
+      <div className="text-center flex flex-col gap-4">
         <Link
           to="/"
           className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
         >
           Go Back to Home
+        </Link>
+        <Link
+          to="/adminPage"
+          className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
+        >
+          Go Back to Admin Panel
         </Link>
       </div>
     </div>

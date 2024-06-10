@@ -258,12 +258,18 @@ const AddNotification = () => {
           <div>Uploading Image...</div>
         )}
       </form>
-      <div className="text-center">
+      <div className="text-center flex flex-col gap-4">
         <Link
           to="/"
           className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
         >
           Go Back to Home
+        </Link>
+        <Link
+          to="/adminPage"
+          className="bg-yellow-600 hover:bg-yellow-800 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
+        >
+          Go Back to Admin Panel
         </Link>
       </div>
 

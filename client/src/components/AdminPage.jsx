@@ -14,7 +14,7 @@ const Dashboard = () => {
               to="/add_library_book"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
             >
-              Add Book
+              Add Subject/Keyword
             </Link>
           </div>
           <div className="text-center">
@@ -22,7 +22,7 @@ const Dashboard = () => {
               to="/delete_library_book"
               className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline inline-block"
             >
-              Delete Book
+              Delete Subject/Keyword
             </Link>
           </div>
           <div className="text-center">

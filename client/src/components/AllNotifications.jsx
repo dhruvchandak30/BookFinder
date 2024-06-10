@@ -58,7 +58,7 @@ const AllNotifications = () => {
             alignItems: "center",
             justifyContent: "center",
             justifyItems: "center",
-            marginTop: "4rem",
+            marginTop: "1rem",
           }}
           pagination={{
             type: "fraction",

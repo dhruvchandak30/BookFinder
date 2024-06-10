@@ -5,7 +5,7 @@ const IndividualNotification = (props) => {
         <div style={{
             display: 'flex',
             flexDirection: 'column',
-            gap: "4px",
+            gap: "20px",
             border: "solid",
             borderRadius: "10px",
             padding: "10px",
@@ -13,13 +13,9 @@ const IndividualNotification = (props) => {
             margin: "auto",
             marginBottom: "1.3rem",
             overflowWrap: "break-word",
-            marginBottom:"2rem" // Allow text to wrap instead of overflowing
+          
         }}>
-            {props.imageUrl &&
-                <div style={{ margin: "auto" }}>
-                    <img width={"500"} src={props.imageUrl} alt="" />
-                </div>
-            }
+         
 
             <div style={{ textAlign: 'center' }}>
                 <h1 style={{ fontSize: "1.8rem" }}>
@@ -30,6 +26,11 @@ const IndividualNotification = (props) => {
                     {props.dsc}
                 </p>
             </div>
+            {props.imageUrl &&
+                <div style={{ margin: "auto" }}>
+                    <img width={"500"} src={props.imageUrl} alt="" />
+                </div>
+            }
         </div>
     );
 };
