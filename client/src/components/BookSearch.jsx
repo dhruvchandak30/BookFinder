@@ -109,7 +109,6 @@ const BookSearch = ({ data, onClick }) => {
             </div>
             {groupedData[selectedKeyword].map((item) => (
               <div key={item._id} style={{ marginBottom: "10px" }}>
-                <h5>Id: {item.SrNo}</h5>
                 <p className="text-[15px]" style={{ margin: 0 }}>
                   Go to {item.BayGuide}, Shelf No. {item.Shelf}, Class No.{" "}
                   {item.Class}

@@ -51,32 +51,36 @@ const AdminPage = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [message, setMessage] = useState("");
-  const [isLoggedIn, setIsLoggedIn] = useState(false); // New state for login status
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleLogin = async (e) => {
     e.preventDefault();
 
-    const response = await fetch(
-      "https://bookfinder-1.onrender.com/loginuser",
-      {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({ username, password }),
-      }
-    );
+    try {
+      const response = await fetch(
+        "https://bookfinder-1.onrender.com/loginuser",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ username, password }),
+        }
+      );
 
-    if (response.status === 200) {
       const data = await response.json();
-      if (data.success) {
-        setMessage("Login successful!");
-        setIsLoggedIn(true);
+
+      if (response.status === 200) {
+        if (data.success) {
+          setMessage("Login successful!");
+          setIsLoggedIn(true);
+        }
       } else {
-        setMessage("Invalid credentials");
+        setMessage(data.message);
       }
-    } else {
-      setMessage("Error logging in");
+    } catch (error) {
+      console.error("An error occurred:", error);
+      setMessage("An unexpected error occurred. Please try again later.");
     }
   };
 

@@ -79,7 +79,7 @@ const Home = ({ books }) => {
         </div>
         {counterValue > 0 && (
           <div className="m-4 font-bold text-xl">
-            Hit count : {counterValue}.
+            Hit count : {counterValue}
           </div>
         )}
       </div>

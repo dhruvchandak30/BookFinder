@@ -10,13 +10,13 @@ const u = {
 
 router.post("/loginuser", (req, res) => {
   const { username, password } = req.body;
-
+console.log(req.body);
   if (u.username === username && u.password === password) {
-    console.log("Valid User");
     res.status(200).json({ success: true, message: "Login successful!" });
-  } else {
-    console.log("Invalid User");
+  } else if (u.username !== username || u.password !== password) {
     res.status(401).json({ success: false, message: "Invalid credentials" });
+  } else {
+    res.status(401).json({ success: false, message: "Error In Server" });
   }
 });
 
