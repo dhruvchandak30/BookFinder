@@ -22,31 +22,45 @@ const DeleteBookForm = () => {
     e.preventDefault();
     setMessage("");
     setError("");
+
     // Check if bookId or secretKey is empty
     if (!bookId || !secretKey) {
       setError("Please enter both book ID and secret key");
       return;
     }
+
     try {
-      const response = await axios.post(
-        "https://bookfinder-1.onrender.com/deletebook",
-        {
-          data: { bookId, secretKey },
-        }
-      );
+      const response = await axios.post("https://bookfinder-1.onrender.com/deletebook", {
+        data: { bookId, secretKey },
+      });
+
       setMessage(response.data.message);
       setBookId("");
       setSecretKey("");
     } catch (error) {
-      setMessage("");
-      setError("Failed to delete book");
-      console.error("Error deleting book:", error);
+      if (error.response) {
+        // The request was made and the server responded with a status code
+        // that falls out of the range of 2xx
+        console.error("Response data:", error.response.data);
+        console.error("Response status:", error.response.status);
+        setError(error.response.data.error || "An error occurred");
+      } else if (error.request) {
+        // The request was made but no response was received
+        console.error("Request data:", error.request);
+        setError("No response received from server");
+      } else {
+        // Something happened in setting up the request that triggered an Error
+        console.error("Error message:", error.message);
+        setError(error.message);
+      }
     }
   };
 
   return (
     <div className="max-w-md mx-auto p-6 bg-white shadow-md rounded-md">
-      <h2 className="text-2xl font-semibold mb-4 text-center">Delete Subject/Keyword</h2>
+      <h2 className="text-2xl font-semibold mb-4 text-center">
+        Delete Subject/Keyword
+      </h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label className="block text-gray-700">Book ID:</label>
